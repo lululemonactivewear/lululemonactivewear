@@ -1,0 +1,1001 @@
+User ID,Age group,Gender,Collection,Activewear Type,Energy level,Motivation level,Comfort level,Confidence level,Fit satisfaction,Professionalism,Social comfort,Feedback received,Community connection,Mood ,Confidence,Social Interaction
+1,25-34,Female,New,Tank Tops,4,4,3,2,4,4,3,4,5,Positive,Medium,High
+2,25-34,Male,New,Shorts,4,4,2,5,5,1,4,4,2,Positive,High,Medium
+3,45-54,Female,Old,Hoodies,3,4,2,1,4,5,1,3,3,Positive,Medium,Medium
+4,25-34,Female,New,T-Shirts,5,2,3,5,2,1,2,3,2,Positive,Medium,Medium
+5,45-54,Male,New,Tank Tops,2,4,2,1,4,1,2,3,1,Positive,Medium,Medium
+6,25-34,Male,New,Joggers,5,1,4,2,4,4,2,5,5,Positive,Medium,High
+7,45-54,Male,New,T-Shirts,2,5,4,1,1,3,4,5,4,Positive,Low,High
+8,25-34,Male,New,Joggers,5,5,1,3,5,1,2,4,5,Positive,Medium,High
+9,55+,Female,Old,Tank Tops,4,5,4,3,5,4,3,5,2,Positive,High,Medium
+10,45-54,Female,New,Shorts,1,4,2,4,5,1,3,1,1,Positive,Medium,Low
+11,18-24,Male,New,Tank Tops,4,4,4,4,1,2,4,4,3,Positive,Medium,High
+12,25-34,Female,New,T-Shirts,2,4,3,3,2,1,2,2,4,Positive,Medium,Medium
+13,25-34,Female,Old,Joggers,2,3,4,3,3,5,2,4,4,Positive,High,Medium
+14,18-24,Female,New,Hoodies,1,2,3,1,1,2,1,1,1,Negative,Low,Low
+15,55+,Female,New,Hoodies,2,5,2,5,2,5,1,5,2,Positive,High,Medium
+16,35-44,Female,Old,Tank Tops,2,2,2,2,3,1,3,2,5,Negative,Medium,Medium
+17,35-44,Female,New,Joggers,5,3,4,4,3,2,2,4,2,Positive,Medium,Medium
+18,18-24,Male,Old,Tank Tops,3,4,2,1,4,5,5,5,5,Positive,Medium,High
+19,55+,Male,New,Tank Tops,5,1,2,3,5,1,5,1,4,Positive,Medium,Medium
+20,35-44,Male,New,T-Shirts,1,1,3,4,2,5,5,3,2,Negative,High,Medium
+21,18-24,Male,Old,Hoodies,5,4,4,3,5,1,2,1,1,Positive,Medium,Low
+22,25-34,Male,New,Hoodies,3,4,5,3,2,5,5,1,1,Positive,Medium,Medium
+23,25-34,Female,New,Shorts,3,5,2,3,5,5,5,3,3,Positive,High,High
+24,25-34,Male,Old,Shorts,1,2,1,1,3,5,3,2,2,Negative,Medium,Medium
+25,25-34,Male,New,Joggers,5,2,2,2,1,5,3,3,3,Positive,Medium,Medium
+26,25-34,Male,Old,Joggers,3,4,4,5,2,4,2,5,2,Positive,High,Medium
+27,45-54,Male,Old,T-Shirts,3,4,1,2,5,5,5,4,4,Positive,High,High
+28,35-44,Female,New,Joggers,3,3,4,5,2,2,4,1,1,Positive,Medium,Medium
+29,25-34,Male,New,T-Shirts,2,3,1,2,3,5,3,3,3,Negative,Medium,Medium
+30,18-24,Female,New,Tank Tops,2,1,1,1,2,1,1,1,2,Negative,Low,Low
+31,25-34,Female,Old,Hoodies,4,5,5,5,1,3,3,1,1,Positive,Medium,Low
+32,45-54,Male,Old,Hoodies,5,2,5,3,2,4,1,2,5,Positive,Medium,Medium
+33,18-24,Male,New,Shorts,1,1,4,3,3,4,4,1,2,Negative,Medium,Medium
+34,55+,Female,New,Joggers,5,2,1,5,1,4,2,1,4,Positive,Medium,Medium
+35,45-54,Male,New,Joggers,1,5,5,2,3,4,2,5,1,Positive,Medium,Medium
+36,55+,Female,Old,Joggers,4,3,4,4,5,1,3,3,1,Positive,Medium,Medium
+37,35-44,Female,Old,Tank Tops,2,2,3,2,5,5,2,3,3,Positive,High,Medium
+38,45-54,Male,Old,T-Shirts,5,5,4,4,1,1,4,3,2,Positive,Medium,Medium
+39,55+,Male,New,T-Shirts,1,5,4,5,3,1,5,4,1,Positive,Medium,Medium
+40,35-44,Male,New,Hoodies,2,5,1,2,4,1,2,5,4,Positive,Medium,High
+41,25-34,Female,Old,Shorts,3,3,2,1,4,5,4,1,2,Positive,Medium,Medium
+42,55+,Male,New,Hoodies,4,4,5,5,2,4,4,5,1,Positive,High,Medium
+43,18-24,Female,New,Joggers,3,5,3,2,2,3,1,5,5,Positive,Medium,High
+44,55+,Male,New,Joggers,5,2,5,4,3,3,4,4,3,Positive,Medium,High
+45,25-34,Female,Old,Hoodies,2,2,1,1,1,1,2,1,1,Negative,Low,Low
+46,35-44,Female,New,Tank Tops,2,2,1,1,2,1,1,3,5,Negative,Low,Medium
+47,35-44,Male,Old,Shorts,1,3,1,3,1,3,2,5,1,Negative,Medium,Medium
+48,18-24,Female,Old,T-Shirts,3,2,5,4,3,2,3,3,3,Positive,Medium,Medium
+49,55+,Female,Old,Shorts,1,1,2,2,2,1,2,1,2,Negative,Low,Low
+50,35-44,Female,Old,T-Shirts,3,1,1,5,1,5,4,1,1,Negative,High,Medium
+51,25-34,Female,New,Tank Tops,2,1,1,1,4,2,3,4,4,Negative,Medium,High
+52,25-34,Female,Old,Shorts,1,1,1,5,4,1,4,2,5,Negative,Medium,High
+53,35-44,Male,Old,Tank Tops,2,4,1,2,4,3,3,2,5,Positive,Medium,Medium
+54,18-24,Male,New,Hoodies,2,2,1,1,1,1,1,1,2,Negative,Low,Low
+55,18-24,Female,New,Tank Tops,5,1,4,4,2,4,4,5,4,Positive,Medium,High
+56,35-44,Male,Old,Joggers,1,1,4,1,3,3,4,4,5,Negative,Medium,High
+57,25-34,Female,New,Hoodies,3,2,3,2,3,2,2,5,2,Positive,Medium,Medium
+58,55+,Male,New,Tank Tops,4,2,4,2,4,4,2,4,2,Positive,Medium,Medium
+59,35-44,Female,Old,Tank Tops,4,1,3,4,1,5,1,4,4,Positive,Medium,Medium
+60,25-34,Male,New,T-Shirts,4,3,2,3,2,5,4,3,3,Positive,Medium,Medium
+61,35-44,Female,Old,Tank Tops,4,5,1,3,5,1,5,1,5,Positive,Medium,High
+62,25-34,Male,Old,Hoodies,5,4,5,3,2,2,4,1,3,Positive,Medium,Medium
+63,45-54,Male,Old,Joggers,2,2,2,2,2,1,1,1,1,Negative,Low,Low
+64,18-24,Female,Old,Hoodies,2,2,5,2,3,3,5,2,5,Positive,Medium,High
+65,25-34,Female,New,Tank Tops,4,1,5,4,2,3,2,4,3,Positive,Medium,Medium
+66,35-44,Female,New,Tank Tops,3,2,2,5,3,2,1,1,5,Positive,Medium,Medium
+67,35-44,Female,New,Shorts,5,3,2,5,3,4,5,1,2,Positive,High,Medium
+68,35-44,Female,New,Hoodies,2,2,2,1,1,2,1,2,1,Negative,Low,Low
+69,18-24,Male,Old,T-Shirts,1,1,3,5,1,1,5,4,3,Negative,Medium,High
+70,18-24,Male,New,Shorts,5,3,2,1,3,1,1,4,4,Positive,Low,Medium
+71,35-44,Female,New,Joggers,2,3,4,2,1,1,5,5,4,Positive,Low,High
+72,45-54,Female,New,T-Shirts,2,4,1,3,5,3,3,4,5,Positive,High,High
+73,25-34,Male,New,Shorts,1,2,4,1,5,3,3,2,3,Positive,Medium,Medium
+74,55+,Female,New,Tank Tops,1,1,1,4,3,2,3,1,2,Negative,Medium,Medium
+75,55+,Female,New,Shorts,5,1,1,4,1,3,3,4,5,Positive,Medium,High
+76,25-34,Female,New,Shorts,5,4,1,3,4,5,2,3,5,Positive,High,Medium
+77,35-44,Female,New,Joggers,2,2,5,4,4,3,3,1,4,Positive,High,Medium
+78,18-24,Female,New,Shorts,1,2,5,2,2,4,5,4,1,Positive,Medium,Medium
+79,55+,Male,Old,Joggers,2,5,4,4,2,5,5,3,5,Positive,High,High
+80,55+,Female,Old,Joggers,4,5,4,3,3,2,5,4,2,Positive,Medium,High
+81,18-24,Female,New,Hoodies,3,2,1,1,2,3,4,3,3,Negative,Medium,Medium
+82,45-54,Male,New,Joggers,3,3,4,4,5,3,1,4,2,Positive,High,Medium
+83,35-44,Female,Old,Joggers,5,3,5,5,5,5,1,2,5,Positive,High,Medium
+84,55+,Female,New,Tank Tops,1,1,2,5,4,1,2,2,3,Negative,Medium,Medium
+85,35-44,Female,New,Shorts,2,3,2,5,1,4,3,5,1,Positive,Medium,Medium
+86,45-54,Female,New,Joggers,2,4,5,4,3,1,4,4,3,Positive,Medium,High
+87,35-44,Male,Old,Tank Tops,4,5,5,2,2,4,1,2,4,Positive,Medium,Medium
+88,55+,Female,New,Joggers,1,5,4,3,1,5,5,5,5,Positive,Medium,High
+89,55+,Male,New,Hoodies,2,2,1,2,1,1,4,5,5,Negative,Low,High
+90,35-44,Female,Old,Shorts,5,2,5,5,4,4,2,5,5,Positive,High,High
+91,55+,Male,Old,Shorts,3,1,4,2,3,4,1,3,4,Positive,Medium,Medium
+92,45-54,Male,Old,T-Shirts,2,4,3,4,5,1,1,1,5,Positive,Medium,Medium
+93,25-34,Female,Old,Joggers,5,5,4,2,4,2,2,3,3,Positive,Medium,Medium
+94,18-24,Female,Old,Hoodies,2,2,2,1,1,1,1,1,1,Negative,Low,Low
+95,35-44,Male,New,Shorts,4,2,4,3,3,4,4,1,5,Positive,Medium,Medium
+96,55+,Male,Old,Joggers,4,1,4,1,3,5,2,1,5,Positive,Medium,Medium
+97,25-34,Male,New,Tank Tops,3,2,4,4,3,5,2,2,3,Positive,High,Medium
+98,35-44,Male,Old,Tank Tops,1,1,1,2,4,3,2,1,5,Negative,Medium,Medium
+99,18-24,Female,New,Tank Tops,2,2,2,1,2,2,2,1,1,Negative,Low,Low
+100,35-44,Male,Old,Shorts,5,3,5,2,2,2,3,3,5,Positive,Medium,High
+101,35-44,Male,Old,Tank Tops,1,1,1,1,1,1,2,1,1,Negative,Low,Low
+102,45-54,Female,Old,Tank Tops,1,1,1,1,1,1,2,1,1,Negative,Low,Low
+103,45-54,Male,Old,Shorts,1,5,3,2,2,3,4,3,4,Positive,Medium,High
+104,18-24,Female,Old,Joggers,1,5,3,1,2,2,1,2,3,Positive,Low,Medium
+105,35-44,Female,New,T-Shirts,3,4,1,1,2,5,4,4,1,Positive,Medium,Medium
+106,35-44,Female,Old,Shorts,3,2,5,3,5,4,3,1,4,Positive,High,Medium
+107,25-34,Male,New,Hoodies,1,5,4,5,4,3,2,4,5,Positive,High,High
+108,25-34,Male,Old,Tank Tops,3,1,2,4,5,5,2,2,1,Negative,High,Low
+109,55+,Male,New,Tank Tops,4,5,5,1,2,1,4,4,1,Positive,Low,Medium
+110,18-24,Male,Old,Shorts,1,2,2,1,1,1,3,3,2,Negative,Low,Medium
+111,18-24,Female,Old,Hoodies,1,4,3,4,5,2,4,3,3,Positive,High,Medium
+112,45-54,Male,Old,Shorts,2,1,1,4,4,5,2,3,2,Negative,High,Medium
+113,55+,Female,New,Hoodies,4,2,1,3,4,2,2,3,2,Positive,Medium,Medium
+114,45-54,Male,Old,Joggers,3,1,2,1,2,1,1,5,2,Negative,Low,Medium
+115,35-44,Male,Old,Shorts,4,3,2,5,2,1,2,1,1,Positive,Medium,Low
+116,55+,Female,New,Tank Tops,3,4,4,1,5,1,4,1,4,Positive,Medium,Medium
+117,25-34,Male,New,Shorts,4,1,2,2,4,1,3,4,3,Positive,Medium,Medium
+118,35-44,Male,Old,Joggers,4,4,3,2,4,5,4,3,4,Positive,High,High
+119,45-54,Male,New,Hoodies,1,1,2,2,4,5,1,5,5,Negative,High,High
+120,35-44,Female,Old,T-Shirts,2,1,5,3,4,2,2,5,1,Positive,Medium,Medium
+121,45-54,Female,New,Shorts,1,4,4,4,5,2,2,3,1,Positive,High,Medium
+122,45-54,Male,New,Hoodies,2,3,5,5,2,1,1,2,5,Positive,Medium,Medium
+123,25-34,Female,Old,Shorts,4,3,4,1,4,5,4,3,3,Positive,Medium,Medium
+124,45-54,Female,New,Hoodies,3,5,3,4,1,5,2,5,1,Positive,Medium,Medium
+125,18-24,Male,Old,T-Shirts,3,5,2,3,2,1,2,4,2,Positive,Medium,Medium
+126,45-54,Male,New,T-Shirts,3,2,3,3,5,5,2,3,2,Positive,High,Medium
+127,55+,Female,New,T-Shirts,3,4,5,3,5,1,3,4,4,Positive,Medium,High
+128,55+,Male,Old,Tank Tops,1,2,3,4,5,4,3,2,1,Negative,High,Medium
+129,35-44,Female,New,Hoodies,3,1,2,2,2,2,5,3,1,Negative,Medium,Medium
+130,35-44,Male,Old,T-Shirts,2,5,3,1,1,1,2,5,4,Positive,Low,High
+131,18-24,Female,Old,T-Shirts,2,4,3,5,1,3,4,3,2,Positive,Medium,Medium
+132,55+,Male,Old,Hoodies,5,1,3,1,2,4,1,4,5,Positive,Medium,Medium
+133,45-54,Female,Old,Joggers,3,1,3,5,5,1,1,5,4,Positive,High,Medium
+134,18-24,Female,Old,T-Shirts,3,5,1,3,5,5,4,1,2,Positive,High,Medium
+135,25-34,Male,Old,Joggers,1,3,4,3,3,3,5,4,4,Positive,Medium,High
+136,18-24,Male,New,Joggers,2,3,4,4,4,5,4,3,2,Positive,High,Medium
+137,25-34,Female,Old,Joggers,1,5,1,2,1,5,2,1,3,Positive,Medium,Medium
+138,18-24,Female,Old,T-Shirts,3,1,1,4,1,2,1,5,3,Negative,Medium,Medium
+139,25-34,Male,Old,Shorts,4,1,2,3,1,3,4,1,4,Positive,Medium,Medium
+140,25-34,Female,New,Shorts,2,3,4,2,3,4,5,5,3,Positive,Medium,High
+141,55+,Female,New,Tank Tops,1,5,3,5,4,2,1,5,5,Positive,High,High
+142,55+,Male,New,Tank Tops,4,2,2,2,1,4,4,5,1,Positive,Medium,Medium
+143,45-54,Male,Old,T-Shirts,1,5,2,2,5,5,3,5,3,Positive,High,High
+144,35-44,Female,Old,T-Shirts,2,2,3,5,2,3,4,3,1,Positive,Medium,Medium
+145,18-24,Male,New,T-Shirts,5,3,5,2,5,3,2,2,3,Positive,Medium,Medium
+146,45-54,Male,Old,Joggers,4,2,3,3,1,5,4,1,5,Positive,Medium,Medium
+147,18-24,Female,Old,Shorts,1,2,1,4,4,2,1,5,5,Negative,Medium,High
+148,45-54,Female,New,Joggers,2,5,1,4,1,1,4,1,5,Positive,Medium,Medium
+149,55+,Male,New,Tank Tops,5,3,4,2,3,2,3,4,5,Positive,Medium,High
+150,18-24,Female,Old,Tank Tops,4,2,2,4,4,1,2,3,1,Positive,Medium,Medium
+151,18-24,Female,Old,Tank Tops,1,2,5,3,4,1,1,4,5,Positive,Medium,Medium
+152,35-44,Male,New,Joggers,5,4,4,4,1,1,1,3,2,Positive,Medium,Medium
+153,35-44,Male,Old,Hoodies,3,4,5,4,4,5,4,5,3,Positive,High,High
+154,35-44,Female,New,Joggers,5,3,5,1,5,3,1,1,3,Positive,Medium,Low
+155,35-44,Male,Old,T-Shirts,2,1,5,1,1,2,2,1,5,Positive,Low,Medium
+156,45-54,Female,New,Shorts,2,5,3,3,1,4,2,2,1,Positive,Medium,Low
+157,35-44,Male,Old,Tank Tops,1,4,4,3,4,5,4,1,1,Positive,High,Medium
+158,35-44,Female,Old,Hoodies,4,1,5,2,2,5,5,2,1,Positive,Medium,Medium
+159,35-44,Female,Old,Shorts,5,3,3,3,3,4,5,3,4,Positive,Medium,High
+160,25-34,Female,New,T-Shirts,4,5,5,5,2,2,3,1,1,Positive,Medium,Low
+161,35-44,Female,Old,T-Shirts,2,3,5,4,1,4,2,2,2,Positive,Medium,Medium
+162,45-54,Male,Old,T-Shirts,3,3,3,5,3,5,1,5,5,Positive,High,High
+163,35-44,Male,New,Hoodies,1,5,2,1,1,4,3,4,4,Positive,Medium,High
+164,25-34,Female,Old,Shorts,4,3,5,5,2,2,4,5,1,Positive,Medium,Medium
+165,35-44,Female,Old,Tank Tops,1,1,5,5,3,2,4,1,5,Positive,Medium,Medium
+166,55+,Male,Old,T-Shirts,4,5,1,2,5,2,2,2,1,Positive,Medium,Low
+167,25-34,Female,New,Tank Tops,2,4,4,5,2,5,3,1,3,Positive,High,Medium
+168,25-34,Female,Old,T-Shirts,2,2,1,3,3,4,5,4,1,Negative,Medium,Medium
+169,25-34,Female,Old,Joggers,4,5,4,5,2,5,3,5,1,Positive,High,Medium
+170,55+,Male,Old,Shorts,2,4,4,4,3,1,3,4,4,Positive,Medium,High
+171,25-34,Male,New,Hoodies,4,3,4,3,2,4,5,1,4,Positive,Medium,Medium
+172,45-54,Female,New,T-Shirts,2,1,3,1,5,3,2,5,1,Negative,Medium,Medium
+173,35-44,Female,Old,Tank Tops,3,4,3,4,3,1,2,1,3,Positive,Medium,Medium
+174,25-34,Female,Old,Tank Tops,3,3,2,3,4,2,3,2,3,Positive,Medium,Medium
+175,55+,Male,New,Shorts,2,2,4,4,1,3,2,2,1,Positive,Medium,Low
+176,55+,Female,New,Tank Tops,3,5,5,4,1,1,2,1,1,Positive,Medium,Low
+177,35-44,Female,Old,T-Shirts,1,3,3,3,3,4,2,5,1,Positive,Medium,Medium
+178,18-24,Male,Old,Joggers,1,3,3,2,1,4,5,2,4,Positive,Medium,High
+179,25-34,Female,New,Hoodies,4,5,5,5,1,2,3,4,3,Positive,Medium,Medium
+180,45-54,Female,Old,Joggers,3,2,2,5,5,5,1,4,4,Positive,High,Medium
+181,25-34,Male,New,Hoodies,3,2,5,4,5,2,5,5,2,Positive,High,High
+182,45-54,Female,Old,T-Shirts,1,2,2,3,2,3,3,4,2,Negative,Medium,Medium
+183,45-54,Female,New,T-Shirts,4,1,4,5,5,4,5,4,5,Positive,High,High
+184,18-24,Female,New,Hoodies,3,2,1,1,1,1,1,4,4,Negative,Low,Medium
+185,55+,Female,New,Tank Tops,5,1,2,1,3,3,4,5,1,Positive,Medium,Medium
+186,18-24,Female,Old,Tank Tops,5,1,2,1,1,2,1,1,2,Positive,Low,Low
+187,25-34,Male,Old,Joggers,4,4,1,2,3,1,4,2,5,Positive,Medium,High
+188,18-24,Female,Old,Hoodies,5,3,1,2,4,1,4,1,4,Positive,Medium,Medium
+189,35-44,Female,Old,Tank Tops,4,2,4,3,4,4,3,4,1,Positive,High,Medium
+190,25-34,Male,New,Joggers,2,2,5,2,3,2,5,4,3,Positive,Medium,High
+191,25-34,Male,New,Tank Tops,2,2,2,4,3,2,2,1,3,Negative,Medium,Medium
+192,55+,Male,Old,Shorts,3,4,1,1,3,2,1,5,1,Positive,Medium,Medium
+193,35-44,Female,New,Joggers,1,2,1,2,2,3,3,4,2,Negative,Medium,Medium
+194,55+,Male,New,Shorts,1,2,3,4,4,4,4,5,2,Negative,High,High
+195,55+,Female,New,T-Shirts,3,3,3,5,5,5,2,1,1,Positive,High,Low
+196,25-34,Female,Old,T-Shirts,3,3,3,3,2,3,3,4,1,Positive,Medium,Medium
+197,35-44,Male,Old,T-Shirts,4,4,4,4,4,3,1,4,2,Positive,High,Medium
+198,45-54,Male,Old,Tank Tops,5,2,1,4,1,3,1,4,5,Positive,Medium,Medium
+199,35-44,Female,New,Tank Tops,3,3,5,4,3,1,4,1,4,Positive,Medium,Medium
+200,45-54,Male,Old,Hoodies,4,3,3,3,2,2,3,5,1,Positive,Medium,Medium
+201,18-24,Female,New,Tank Tops,5,3,3,5,3,2,3,4,4,Positive,Medium,High
+202,35-44,Male,New,T-Shirts,3,3,3,2,3,2,2,2,2,Positive,Medium,Medium
+203,45-54,Female,Old,Shorts,4,3,5,3,4,5,4,1,2,Positive,High,Medium
+204,18-24,Female,Old,Joggers,4,4,3,4,4,3,1,5,3,Positive,High,Medium
+205,18-24,Male,Old,T-Shirts,3,5,4,3,2,5,1,3,1,Positive,Medium,Low
+206,55+,Male,Old,Joggers,1,4,4,3,5,3,4,3,4,Positive,High,High
+207,18-24,Female,New,Tank Tops,2,1,3,5,4,3,1,4,1,Negative,High,Medium
+208,25-34,Male,Old,Shorts,3,3,2,2,3,4,3,1,2,Positive,Medium,Medium
+209,55+,Female,New,Shorts,5,1,1,1,3,3,5,2,5,Positive,Medium,High
+210,55+,Female,New,Joggers,3,2,3,2,1,4,1,1,4,Positive,Medium,Medium
+211,25-34,Female,New,Shorts,3,3,2,2,2,3,5,5,4,Positive,Medium,High
+212,35-44,Male,New,Tank Tops,5,4,1,1,3,1,3,1,5,Positive,Low,Medium
+213,18-24,Female,Old,Joggers,1,2,3,4,5,2,4,1,3,Negative,High,Medium
+214,35-44,Male,Old,T-Shirts,5,5,3,1,4,4,3,4,2,Positive,Medium,Medium
+215,55+,Female,Old,Hoodies,1,5,4,5,3,1,1,2,3,Positive,Medium,Medium
+216,35-44,Female,Old,Joggers,1,3,3,3,2,2,3,2,2,Positive,Medium,Medium
+217,45-54,Female,Old,Shorts,4,3,3,1,1,3,4,3,5,Positive,Low,High
+218,45-54,Male,New,Hoodies,2,5,1,5,3,2,2,3,4,Positive,Medium,Medium
+219,45-54,Male,Old,Hoodies,1,3,5,4,1,3,1,4,3,Positive,Medium,Medium
+220,45-54,Female,New,Hoodies,1,2,3,2,3,4,3,2,2,Negative,Medium,Medium
+221,55+,Male,Old,Shorts,5,1,2,2,3,4,3,5,2,Positive,Medium,Medium
+222,35-44,Female,New,Tank Tops,5,5,2,1,1,1,5,2,3,Positive,Low,Medium
+223,18-24,Female,New,Hoodies,3,3,3,2,4,3,3,2,2,Positive,Medium,Medium
+224,45-54,Male,Old,Shorts,1,4,5,4,4,1,3,3,2,Positive,Medium,Medium
+225,25-34,Male,Old,Joggers,3,5,5,5,1,2,4,2,1,Positive,Medium,Medium
+226,35-44,Female,Old,Hoodies,1,5,5,5,3,5,5,4,4,Positive,High,High
+227,18-24,Female,Old,Joggers,3,5,2,1,4,2,3,4,4,Positive,Medium,High
+228,45-54,Male,Old,Tank Tops,4,3,4,4,3,2,2,5,3,Positive,Medium,Medium
+229,35-44,Female,New,T-Shirts,4,1,3,4,5,5,4,4,2,Positive,High,Medium
+230,45-54,Female,Old,Hoodies,5,5,4,2,4,1,5,1,5,Positive,Medium,High
+231,45-54,Female,New,T-Shirts,3,4,1,5,4,5,5,2,2,Positive,High,Medium
+232,18-24,Female,New,T-Shirts,3,4,3,3,4,3,2,3,4,Positive,Medium,Medium
+233,55+,Male,New,Tank Tops,1,1,5,5,2,3,5,3,3,Positive,Medium,High
+234,25-34,Female,Old,Hoodies,3,4,3,4,3,2,2,1,1,Positive,Medium,Low
+235,25-34,Female,New,Joggers,5,2,3,4,5,1,4,2,1,Positive,Medium,Medium
+236,18-24,Female,New,Joggers,2,3,1,5,4,1,4,3,4,Negative,Medium,High
+237,35-44,Female,New,Shorts,5,3,1,4,4,4,3,4,4,Positive,High,High
+238,18-24,Male,Old,Hoodies,4,5,3,2,4,3,5,3,2,Positive,Medium,Medium
+239,55+,Male,Old,Tank Tops,3,2,2,4,1,1,3,3,5,Positive,Medium,High
+240,18-24,Male,New,Tank Tops,3,3,4,4,4,4,1,1,4,Positive,High,Medium
+241,55+,Male,Old,Shorts,5,5,2,2,5,4,5,1,3,Positive,High,Medium
+242,55+,Female,Old,Tank Tops,3,5,1,2,1,5,4,1,3,Positive,Medium,Medium
+243,25-34,Male,New,Shorts,1,5,4,2,2,1,1,5,5,Positive,Low,High
+244,55+,Female,Old,Tank Tops,1,2,1,5,5,1,4,5,3,Negative,High,High
+245,35-44,Male,New,Hoodies,1,2,4,3,5,1,2,2,2,Positive,Medium,Medium
+246,55+,Female,New,Joggers,5,3,2,1,3,3,5,4,1,Positive,Medium,Medium
+247,25-34,Female,New,Hoodies,4,5,1,2,5,2,4,5,5,Positive,Medium,High
+248,18-24,Male,New,Joggers,5,3,5,3,5,4,2,4,3,Positive,High,Medium
+249,55+,Male,New,T-Shirts,1,2,1,3,2,5,4,1,3,Negative,Medium,Medium
+250,55+,Male,New,Hoodies,2,3,2,2,4,2,1,5,2,Positive,Medium,Medium
+251,55+,Male,Old,Hoodies,3,3,1,2,5,2,1,5,3,Positive,Medium,Medium
+252,55+,Female,New,Joggers,5,4,4,5,3,2,3,4,4,Positive,Medium,High
+253,45-54,Female,Old,T-Shirts,2,3,2,1,5,5,3,4,4,Positive,High,High
+254,25-34,Male,Old,Shorts,1,5,4,5,1,2,4,5,2,Positive,Medium,High
+255,45-54,Male,Old,Shorts,5,5,2,1,2,3,2,2,3,Positive,Medium,Medium
+256,18-24,Female,New,Hoodies,1,4,4,3,5,3,2,2,2,Positive,High,Medium
+257,55+,Female,Old,Tank Tops,1,3,5,2,2,2,5,2,5,Positive,Medium,High
+258,45-54,Male,Old,Hoodies,5,5,2,3,5,4,5,2,5,Positive,High,High
+259,35-44,Female,Old,Shorts,3,4,5,3,4,4,3,3,2,Positive,High,Medium
+260,35-44,Male,New,Tank Tops,3,5,3,1,3,2,2,2,5,Positive,Medium,Medium
+261,45-54,Male,New,Tank Tops,3,1,2,3,3,2,4,5,4,Negative,Medium,High
+262,45-54,Female,Old,Hoodies,4,3,1,5,3,4,2,4,5,Positive,High,High
+263,25-34,Male,New,Shorts,2,1,3,3,4,1,3,3,3,Negative,Medium,Medium
+264,35-44,Female,Old,Tank Tops,4,3,5,4,4,2,5,5,2,Positive,Medium,High
+265,35-44,Male,Old,Hoodies,4,5,2,3,4,4,1,5,3,Positive,High,Medium
+266,45-54,Female,New,Shorts,4,2,2,2,2,2,4,3,2,Positive,Medium,Medium
+267,25-34,Male,Old,T-Shirts,1,5,5,4,2,2,2,2,5,Positive,Medium,Medium
+268,55+,Male,Old,Hoodies,5,1,5,5,5,1,4,4,5,Positive,High,High
+269,25-34,Female,New,Hoodies,3,1,1,5,5,2,5,2,5,Negative,High,High
+270,18-24,Male,New,Shorts,4,1,3,5,1,5,2,2,2,Positive,High,Medium
+271,45-54,Male,New,T-Shirts,4,5,5,4,4,3,2,2,2,Positive,High,Medium
+272,45-54,Male,New,Tank Tops,3,2,1,3,2,4,5,4,5,Negative,Medium,High
+273,18-24,Female,Old,Tank Tops,5,1,5,2,4,1,2,4,4,Positive,Medium,Medium
+274,18-24,Male,Old,Shorts,2,3,2,3,3,5,4,3,2,Positive,High,Medium
+275,18-24,Female,Old,T-Shirts,1,4,4,4,1,5,1,2,2,Positive,Medium,Low
+276,45-54,Female,New,Shorts,5,5,3,3,1,3,1,4,5,Positive,Medium,Medium
+277,45-54,Female,New,Tank Tops,5,2,3,1,3,2,4,5,4,Positive,Medium,High
+278,45-54,Male,Old,Shorts,3,1,2,3,3,1,1,1,3,Negative,Medium,Low
+279,45-54,Female,Old,Joggers,5,3,1,4,5,5,3,3,4,Positive,High,Medium
+280,25-34,Female,Old,Hoodies,5,2,1,1,2,4,2,2,1,Positive,Medium,Low
+281,45-54,Female,Old,Tank Tops,5,3,4,2,2,1,2,5,3,Positive,Low,Medium
+282,45-54,Female,Old,T-Shirts,1,3,2,3,3,4,4,4,2,Negative,Medium,Medium
+283,45-54,Male,New,Joggers,4,2,5,2,3,4,1,2,1,Positive,Medium,Low
+284,45-54,Female,Old,T-Shirts,1,4,5,1,4,4,3,4,1,Positive,Medium,Medium
+285,25-34,Male,New,T-Shirts,2,3,1,5,1,2,2,5,5,Negative,Medium,High
+286,45-54,Female,Old,Hoodies,4,5,5,4,2,3,2,1,2,Positive,Medium,Low
+287,45-54,Female,Old,Hoodies,2,4,1,1,5,2,1,1,2,Positive,Medium,Low
+288,55+,Female,New,Hoodies,2,5,2,4,3,4,1,4,3,Positive,High,Medium
+289,55+,Male,New,Hoodies,4,2,4,2,5,2,2,2,2,Positive,Medium,Medium
+290,35-44,Female,New,T-Shirts,5,2,4,5,5,1,1,2,4,Positive,High,Medium
+291,18-24,Male,Old,Hoodies,1,3,2,3,2,4,4,2,2,Negative,Medium,Medium
+292,55+,Female,Old,Shorts,1,4,2,4,1,4,3,3,4,Positive,Medium,Medium
+293,45-54,Female,Old,Hoodies,2,3,3,5,1,5,1,1,3,Positive,High,Low
+294,55+,Male,Old,T-Shirts,5,5,2,2,1,5,2,5,3,Positive,Medium,Medium
+295,18-24,Female,New,Joggers,2,3,4,5,5,5,4,4,4,Positive,High,High
+296,25-34,Male,New,Shorts,5,5,1,1,1,1,4,2,3,Positive,Low,Medium
+297,25-34,Female,Old,Tank Tops,4,3,1,3,3,5,4,1,1,Positive,High,Medium
+298,35-44,Female,Old,Shorts,4,5,4,1,2,2,1,2,4,Positive,Low,Medium
+299,25-34,Female,New,Shorts,5,4,2,1,1,3,3,3,2,Positive,Low,Medium
+300,45-54,Female,New,Tank Tops,3,5,3,5,1,4,5,1,3,Positive,Medium,Medium
+301,55+,Male,New,Joggers,2,2,1,5,1,3,2,4,4,Negative,Medium,Medium
+302,55+,Female,Old,T-Shirts,5,4,2,4,2,3,3,5,5,Positive,Medium,High
+303,35-44,Female,New,Hoodies,1,3,2,1,2,5,5,4,1,Negative,Medium,Medium
+304,35-44,Male,Old,Tank Tops,1,4,3,5,2,1,2,1,5,Positive,Medium,Medium
+305,45-54,Female,Old,Hoodies,3,4,4,1,2,3,5,1,5,Positive,Medium,High
+306,35-44,Male,Old,T-Shirts,4,5,2,2,1,2,5,4,5,Positive,Low,High
+307,55+,Male,New,Hoodies,3,1,2,4,3,3,3,1,3,Negative,Medium,Medium
+308,25-34,Female,Old,Hoodies,5,1,3,1,1,5,4,4,1,Positive,Medium,Medium
+309,55+,Female,Old,Tank Tops,5,2,5,1,1,4,5,2,1,Positive,Medium,Medium
+310,25-34,Male,New,Tank Tops,3,2,1,1,5,2,4,2,3,Negative,Medium,Medium
+311,35-44,Male,New,Hoodies,2,5,3,1,4,1,2,2,3,Positive,Medium,Medium
+312,18-24,Male,Old,Hoodies,5,1,1,3,4,1,5,1,2,Positive,Medium,Medium
+313,35-44,Female,Old,Shorts,4,3,1,2,4,4,2,2,1,Positive,Medium,Low
+314,18-24,Female,Old,Joggers,2,1,3,5,1,4,5,4,5,Negative,Medium,High
+315,35-44,Male,Old,Tank Tops,5,5,1,5,3,4,2,2,3,Positive,High,Medium
+316,18-24,Female,New,Joggers,2,1,4,5,2,5,4,4,4,Positive,High,High
+317,18-24,Female,New,Shorts,1,5,1,5,1,2,4,4,5,Positive,Medium,High
+318,35-44,Male,Old,Hoodies,2,2,1,1,3,1,3,3,3,Negative,Low,Medium
+319,25-34,Female,Old,Shorts,3,2,2,1,2,2,2,2,3,Positive,Low,Medium
+320,18-24,Male,Old,T-Shirts,2,3,4,4,4,4,3,3,3,Positive,High,Medium
+321,25-34,Male,New,Hoodies,4,4,3,2,2,2,2,4,3,Positive,Medium,Medium
+322,35-44,Male,New,Joggers,2,2,2,2,4,1,3,5,5,Negative,Medium,High
+323,45-54,Male,Old,Hoodies,3,5,4,1,5,5,5,2,4,Positive,High,High
+324,55+,Male,Old,Shorts,1,5,4,3,1,2,5,4,4,Positive,Medium,High
+325,45-54,Male,New,Shorts,5,3,4,2,2,1,4,3,2,Positive,Low,Medium
+326,55+,Male,Old,Shorts,2,2,2,4,3,3,2,5,4,Negative,Medium,High
+327,45-54,Female,Old,Tank Tops,1,2,3,5,5,4,3,4,4,Negative,High,High
+328,18-24,Female,New,Joggers,1,1,5,5,4,1,3,2,4,Positive,Medium,Medium
+329,45-54,Male,New,Shorts,3,2,2,4,1,5,5,5,2,Positive,Medium,High
+330,35-44,Male,Old,T-Shirts,3,4,5,1,2,5,5,3,5,Positive,Medium,High
+331,35-44,Female,Old,Tank Tops,5,4,3,3,4,3,3,3,4,Positive,Medium,Medium
+332,45-54,Male,Old,T-Shirts,4,5,4,1,4,5,4,1,4,Positive,Medium,Medium
+333,25-34,Male,New,Joggers,3,4,2,2,5,5,4,2,3,Positive,High,Medium
+334,35-44,Male,New,Hoodies,1,2,3,4,3,4,3,3,3,Negative,High,Medium
+335,25-34,Female,Old,Tank Tops,4,1,3,4,3,2,1,1,2,Positive,Medium,Low
+336,55+,Female,Old,Hoodies,2,4,4,2,4,4,3,2,2,Positive,Medium,Medium
+337,55+,Male,Old,Hoodies,4,4,2,4,5,5,1,4,4,Positive,High,Medium
+338,45-54,Female,New,Shorts,1,2,2,3,3,5,2,1,3,Negative,High,Medium
+339,18-24,Female,New,Joggers,4,2,2,1,2,2,5,3,3,Positive,Low,High
+340,35-44,Female,Old,T-Shirts,1,1,3,3,1,2,4,2,1,Negative,Medium,Medium
+341,55+,Female,New,Tank Tops,3,1,1,5,4,5,4,5,1,Negative,High,Medium
+342,25-34,Male,Old,Hoodies,4,3,2,1,3,3,5,4,2,Positive,Medium,High
+343,55+,Male,Old,Joggers,4,5,1,1,5,3,1,3,2,Positive,Medium,Medium
+344,18-24,Male,Old,T-Shirts,1,2,1,2,3,2,2,5,5,Negative,Medium,High
+345,45-54,Female,New,T-Shirts,1,4,3,1,1,5,3,3,1,Positive,Medium,Medium
+346,18-24,Female,Old,Hoodies,5,1,4,5,5,1,4,4,2,Positive,High,Medium
+347,45-54,Male,Old,T-Shirts,5,3,1,1,1,4,1,2,5,Positive,Medium,Medium
+348,55+,Male,New,Hoodies,3,2,1,4,1,1,4,3,1,Negative,Medium,Medium
+349,55+,Female,New,T-Shirts,2,2,4,1,2,3,2,5,5,Positive,Medium,High
+350,45-54,Male,New,Tank Tops,3,5,3,2,5,3,4,2,2,Positive,Medium,Medium
+351,25-34,Male,New,Hoodies,3,4,2,2,5,2,4,4,2,Positive,Medium,Medium
+352,35-44,Male,Old,Hoodies,4,5,4,1,1,4,4,1,3,Positive,Medium,Medium
+353,18-24,Male,New,T-Shirts,4,5,4,5,1,5,3,2,1,Positive,High,Medium
+354,45-54,Male,New,Joggers,1,1,2,3,4,1,5,4,3,Negative,Medium,High
+355,25-34,Female,Old,Shorts,1,4,2,1,1,5,5,1,5,Positive,Medium,High
+356,55+,Female,Old,T-Shirts,1,2,3,3,2,2,4,4,4,Negative,Medium,High
+357,55+,Male,New,Hoodies,1,2,3,3,1,2,5,2,3,Negative,Medium,Medium
+358,35-44,Female,Old,Tank Tops,1,3,2,1,4,2,4,2,4,Negative,Medium,Medium
+359,45-54,Male,Old,Tank Tops,2,2,4,4,4,4,4,2,3,Positive,High,Medium
+360,35-44,Female,New,Tank Tops,4,4,3,5,4,4,2,4,4,Positive,High,Medium
+361,45-54,Female,Old,Joggers,2,5,1,3,2,2,5,2,2,Positive,Medium,Medium
+362,35-44,Female,Old,Shorts,1,4,3,4,4,2,3,2,3,Positive,Medium,Medium
+363,45-54,Female,New,Hoodies,5,3,2,3,4,2,4,5,3,Positive,Medium,High
+364,45-54,Male,New,Joggers,4,5,5,3,3,4,3,1,1,Positive,Medium,Low
+365,45-54,Female,Old,Hoodies,5,3,5,4,4,1,5,4,5,Positive,Medium,High
+366,55+,Female,Old,Joggers,1,3,5,5,5,3,1,5,4,Positive,High,Medium
+367,45-54,Male,Old,Shorts,4,5,3,5,2,1,4,4,5,Positive,Medium,High
+368,25-34,Male,Old,Tank Tops,2,3,5,3,5,5,3,1,4,Positive,High,Medium
+369,55+,Male,Old,T-Shirts,5,1,4,2,4,3,1,4,3,Positive,Medium,Medium
+370,45-54,Female,Old,Shorts,3,4,2,2,1,2,3,5,1,Positive,Low,Medium
+371,18-24,Male,New,Shorts,2,1,3,4,5,3,5,2,4,Negative,High,High
+372,55+,Female,Old,T-Shirts,3,4,1,2,2,2,5,2,4,Positive,Medium,High
+373,25-34,Female,New,Hoodies,3,1,1,5,1,1,3,3,1,Negative,Medium,Medium
+374,25-34,Male,Old,Hoodies,5,1,5,1,1,4,2,5,4,Positive,Medium,High
+375,25-34,Female,New,T-Shirts,2,3,1,4,1,4,2,4,2,Negative,Medium,Medium
+376,25-34,Male,New,Tank Tops,3,1,4,2,2,3,2,3,2,Positive,Medium,Medium
+377,35-44,Female,New,Tank Tops,5,4,3,4,5,1,1,5,4,Positive,Medium,Medium
+378,25-34,Male,New,Hoodies,4,2,2,3,3,4,5,5,3,Positive,Medium,High
+379,35-44,Female,New,Joggers,3,3,1,4,2,3,2,4,1,Positive,Medium,Medium
+380,35-44,Female,Old,T-Shirts,2,4,1,2,4,2,5,1,5,Positive,Medium,High
+381,45-54,Male,Old,Shorts,1,1,5,1,2,1,1,1,3,Positive,Low,Low
+382,35-44,Male,Old,Tank Tops,1,3,4,3,1,4,4,2,3,Positive,Medium,Medium
+383,25-34,Female,Old,Hoodies,1,3,4,2,3,1,3,2,4,Positive,Medium,Medium
+384,25-34,Male,Old,Hoodies,5,1,3,5,1,4,1,3,4,Positive,Medium,Medium
+385,25-34,Male,Old,Hoodies,4,3,1,1,3,2,2,2,5,Positive,Medium,Medium
+386,18-24,Male,Old,Shorts,3,4,2,2,2,2,2,5,4,Positive,Medium,High
+387,35-44,Female,Old,T-Shirts,4,1,2,2,5,1,1,2,1,Positive,Medium,Low
+388,18-24,Female,New,Tank Tops,5,4,4,5,4,1,2,2,1,Positive,Medium,Low
+389,45-54,Female,Old,Shorts,4,5,5,1,2,2,5,5,3,Positive,Low,High
+390,45-54,Female,Old,Hoodies,2,1,1,2,4,4,1,3,1,Negative,Medium,Low
+391,25-34,Female,Old,Joggers,3,2,3,2,2,3,2,3,4,Positive,Medium,Medium
+392,25-34,Male,New,T-Shirts,3,4,1,4,4,3,3,5,1,Positive,High,Medium
+393,35-44,Male,Old,Joggers,1,3,2,1,1,5,3,3,4,Negative,Medium,Medium
+394,18-24,Male,Old,Shorts,2,4,4,1,4,3,2,1,5,Positive,Medium,Medium
+395,45-54,Male,Old,Hoodies,1,5,1,4,3,3,5,5,3,Positive,Medium,High
+396,18-24,Male,New,T-Shirts,2,4,4,3,3,3,4,5,5,Positive,Medium,High
+397,35-44,Female,Old,Hoodies,2,1,1,2,3,1,3,1,1,Negative,Medium,Low
+398,18-24,Male,Old,Joggers,3,2,1,2,1,2,5,4,1,Negative,Low,Medium
+399,45-54,Male,New,Hoodies,2,1,4,3,4,3,2,4,3,Positive,Medium,Medium
+400,25-34,Male,Old,Joggers,2,3,3,3,3,4,4,4,5,Positive,Medium,High
+401,45-54,Female,New,Tank Tops,4,2,5,2,1,5,4,1,3,Positive,Medium,Medium
+402,55+,Female,Old,Hoodies,2,2,3,2,1,1,2,1,2,Positive,Low,Low
+403,45-54,Male,Old,Hoodies,5,4,4,1,5,2,3,1,4,Positive,Medium,Medium
+404,18-24,Female,Old,Shorts,5,5,3,2,3,4,1,1,5,Positive,Medium,Medium
+405,35-44,Female,New,Shorts,4,4,2,1,1,1,5,4,5,Positive,Low,High
+406,55+,Female,Old,Shorts,4,4,2,3,1,2,3,2,1,Positive,Medium,Medium
+407,35-44,Male,New,Tank Tops,5,4,2,3,5,4,3,2,2,Positive,High,Medium
+408,25-34,Female,Old,Shorts,5,3,3,3,2,3,3,2,4,Positive,Medium,Medium
+409,55+,Male,Old,Hoodies,1,4,3,4,5,1,5,2,4,Positive,Medium,High
+410,35-44,Male,Old,Hoodies,5,4,3,4,3,2,5,3,1,Positive,Medium,Medium
+411,35-44,Male,Old,Hoodies,5,1,4,3,5,5,5,1,5,Positive,High,High
+412,18-24,Female,Old,Hoodies,1,2,4,4,5,2,4,3,3,Positive,High,Medium
+413,25-34,Male,Old,Tank Tops,2,1,1,2,1,1,2,2,1,Negative,Low,Low
+414,18-24,Female,New,Tank Tops,1,2,2,3,3,4,5,5,5,Negative,Medium,High
+415,35-44,Female,New,Tank Tops,5,1,1,3,2,4,2,2,3,Positive,Medium,Medium
+416,18-24,Female,Old,Joggers,2,3,2,3,2,2,3,3,2,Positive,Medium,Medium
+417,55+,Male,Old,Hoodies,3,2,4,2,2,2,5,5,5,Positive,Medium,High
+418,35-44,Female,New,Tank Tops,3,2,4,3,1,1,3,4,1,Positive,Low,Medium
+419,25-34,Female,Old,T-Shirts,4,4,3,3,3,3,4,3,2,Positive,Medium,Medium
+420,35-44,Female,New,Hoodies,2,1,4,3,2,2,5,5,3,Positive,Medium,High
+421,55+,Female,Old,Hoodies,5,4,3,3,4,3,1,4,5,Positive,Medium,Medium
+422,45-54,Male,New,Joggers,1,4,1,3,3,2,2,5,3,Negative,Medium,Medium
+423,18-24,Male,Old,Tank Tops,1,4,5,5,2,4,1,5,1,Positive,High,Medium
+424,55+,Male,New,T-Shirts,4,3,4,4,2,1,5,3,5,Positive,Medium,High
+425,55+,Male,New,Hoodies,4,3,2,3,4,3,2,2,2,Positive,Medium,Medium
+426,55+,Male,New,Shorts,1,5,4,3,5,4,4,4,3,Positive,High,High
+427,45-54,Female,New,Shorts,1,3,4,5,5,3,3,3,2,Positive,High,Medium
+428,55+,Male,Old,Joggers,3,5,4,4,3,4,3,3,2,Positive,High,Medium
+429,35-44,Female,Old,Joggers,2,5,3,3,1,2,4,1,3,Positive,Medium,Medium
+430,35-44,Female,New,Joggers,5,2,4,2,2,5,3,1,5,Positive,Medium,Medium
+431,45-54,Male,Old,Shorts,1,3,5,2,1,1,2,3,2,Positive,Low,Medium
+432,55+,Male,New,T-Shirts,5,1,4,2,3,1,1,1,1,Positive,Medium,Low
+433,18-24,Male,New,Joggers,3,3,1,3,1,2,2,1,1,Positive,Medium,Low
+434,55+,Male,New,Shorts,3,3,2,5,4,1,1,3,2,Positive,Medium,Medium
+435,25-34,Male,Old,Joggers,3,2,2,4,5,5,3,5,2,Positive,High,Medium
+436,18-24,Male,New,Joggers,5,1,3,1,4,1,5,3,5,Positive,Medium,High
+437,25-34,Male,New,Shorts,1,1,1,2,2,2,2,5,4,Negative,Medium,High
+438,18-24,Female,New,Tank Tops,2,4,3,5,5,5,1,4,5,Positive,High,Medium
+439,35-44,Female,New,Tank Tops,1,2,1,2,1,4,3,4,3,Negative,Medium,Medium
+440,45-54,Female,Old,Shorts,3,2,5,5,3,5,2,2,2,Positive,High,Medium
+441,25-34,Female,Old,T-Shirts,5,1,3,2,4,2,2,3,3,Positive,Medium,Medium
+442,25-34,Female,New,Tank Tops,5,5,4,3,1,5,4,3,4,Positive,Medium,High
+443,25-34,Female,New,Joggers,1,4,1,2,1,3,4,2,3,Negative,Medium,Medium
+444,25-34,Male,New,Joggers,5,5,4,1,1,1,1,1,4,Positive,Low,Medium
+445,18-24,Male,Old,Tank Tops,2,2,4,1,5,4,4,5,3,Positive,Medium,High
+446,55+,Female,New,Joggers,1,3,3,4,1,2,3,4,2,Positive,Medium,Medium
+447,35-44,Male,Old,Tank Tops,3,5,5,2,4,5,2,5,2,Positive,High,Medium
+448,55+,Male,Old,Hoodies,1,3,4,3,5,4,2,1,2,Positive,High,Low
+449,55+,Male,Old,Joggers,4,3,1,4,3,5,2,4,2,Positive,High,Medium
+450,55+,Male,New,Hoodies,2,5,2,5,2,2,2,2,1,Positive,Medium,Low
+451,45-54,Female,New,Shorts,3,3,3,4,1,5,2,1,5,Positive,Medium,Medium
+452,35-44,Male,Old,Joggers,1,2,3,1,5,1,2,1,3,Negative,Medium,Medium
+453,45-54,Female,Old,Tank Tops,2,2,4,2,4,4,2,3,3,Positive,Medium,Medium
+454,45-54,Male,New,T-Shirts,1,1,2,3,2,3,2,3,3,Negative,Medium,Medium
+455,55+,Male,Old,Joggers,2,2,5,5,1,2,1,1,3,Positive,Medium,Low
+456,25-34,Female,Old,Tank Tops,3,4,3,3,5,1,4,5,3,Positive,Medium,High
+457,18-24,Male,New,Joggers,2,1,1,3,1,3,1,1,4,Negative,Medium,Medium
+458,35-44,Female,Old,Tank Tops,3,5,4,2,3,3,2,2,3,Positive,Medium,Medium
+459,55+,Female,New,T-Shirts,1,2,3,5,4,2,2,2,3,Negative,High,Medium
+460,25-34,Female,Old,Tank Tops,2,3,3,5,2,5,3,5,1,Positive,High,Medium
+461,25-34,Male,Old,Joggers,2,4,1,2,4,5,4,2,1,Positive,High,Medium
+462,35-44,Female,New,Tank Tops,1,4,3,2,5,4,5,5,1,Positive,High,High
+463,25-34,Male,Old,Tank Tops,5,3,1,5,3,4,1,4,2,Positive,High,Medium
+464,55+,Male,Old,T-Shirts,4,3,4,4,5,3,1,4,4,Positive,High,Medium
+465,45-54,Male,New,Hoodies,5,5,3,3,1,3,5,1,2,Positive,Medium,Medium
+466,55+,Female,Old,T-Shirts,1,1,4,3,1,1,3,3,5,Negative,Low,High
+467,18-24,Male,Old,Hoodies,1,1,2,2,3,2,2,2,5,Negative,Medium,Medium
+468,25-34,Male,New,Hoodies,3,5,3,3,2,5,3,2,4,Positive,Medium,Medium
+469,55+,Female,Old,Tank Tops,4,1,1,4,3,2,1,4,1,Negative,Medium,Medium
+470,45-54,Female,Old,Tank Tops,1,1,4,1,4,5,4,1,3,Negative,Medium,Medium
+471,45-54,Male,Old,Hoodies,2,1,2,5,5,1,1,2,3,Negative,High,Medium
+472,45-54,Male,Old,Tank Tops,5,4,3,3,1,4,2,4,2,Positive,Medium,Medium
+473,55+,Male,Old,T-Shirts,5,1,2,4,3,4,2,5,5,Positive,High,High
+474,18-24,Male,New,Tank Tops,2,2,4,5,3,3,3,4,3,Positive,High,Medium
+475,18-24,Female,Old,Tank Tops,1,1,3,4,4,3,1,3,3,Negative,High,Medium
+476,25-34,Male,Old,Joggers,4,2,1,2,4,2,2,4,3,Positive,Medium,Medium
+477,55+,Male,New,Shorts,3,2,2,1,5,2,2,4,5,Positive,Medium,High
+478,25-34,Female,Old,Shorts,2,2,1,3,3,1,5,4,5,Negative,Medium,High
+479,55+,Female,Old,Tank Tops,3,2,4,4,3,3,3,2,2,Positive,Medium,Medium
+480,55+,Female,New,Hoodies,1,1,2,2,4,2,1,3,5,Negative,Medium,Medium
+481,55+,Female,New,Hoodies,5,5,2,2,2,2,3,3,4,Positive,Medium,Medium
+482,25-34,Male,New,Hoodies,3,3,4,3,3,5,3,2,4,Positive,High,Medium
+483,45-54,Female,Old,Hoodies,3,1,1,3,3,4,5,1,2,Negative,Medium,Medium
+484,18-24,Male,Old,Shorts,1,4,2,5,1,4,5,3,1,Positive,Medium,Medium
+485,55+,Male,Old,Shorts,5,2,3,5,5,3,3,2,4,Positive,High,Medium
+486,18-24,Female,New,Tank Tops,2,4,2,4,5,2,2,1,5,Positive,High,Medium
+487,18-24,Female,Old,T-Shirts,3,4,4,3,4,3,4,4,5,Positive,Medium,High
+488,25-34,Female,New,Joggers,4,5,2,1,3,2,5,1,2,Positive,Medium,Medium
+489,35-44,Male,Old,Shorts,5,4,3,3,2,3,2,3,3,Positive,Medium,Medium
+490,18-24,Male,Old,Shorts,1,4,2,5,4,1,5,4,3,Positive,Medium,High
+491,25-34,Male,Old,Tank Tops,2,3,4,3,5,2,4,5,5,Positive,Medium,High
+492,18-24,Female,New,Hoodies,5,1,4,5,2,3,1,5,5,Positive,Medium,High
+493,55+,Female,New,Joggers,5,4,5,2,3,1,5,4,4,Positive,Medium,High
+494,18-24,Male,New,Shorts,3,5,4,3,1,1,5,2,4,Positive,Low,High
+495,25-34,Male,Old,Shorts,4,1,2,3,1,5,2,2,3,Positive,Medium,Medium
+496,45-54,Female,New,Joggers,5,1,5,1,4,1,3,1,4,Positive,Medium,Medium
+497,45-54,Male,New,Shorts,5,3,1,3,1,3,4,3,4,Positive,Medium,High
+498,55+,Male,New,Joggers,5,2,5,5,3,1,4,1,1,Positive,Medium,Medium
+499,18-24,Male,New,Joggers,4,4,1,4,2,4,3,4,4,Positive,Medium,High
+500,25-34,Female,New,Hoodies,4,1,3,5,5,5,5,2,1,Positive,High,Medium
+501,55+,Male,New,T-Shirts,1,1,1,5,2,4,5,3,3,Negative,High,High
+502,45-54,Female,New,Joggers,4,4,3,4,3,3,4,3,2,Positive,Medium,Medium
+503,35-44,Female,New,T-Shirts,3,1,1,1,1,2,2,5,5,Negative,Low,High
+504,18-24,Male,New,T-Shirts,3,4,5,4,5,5,5,5,5,Positive,High,High
+505,18-24,Female,New,Shorts,2,1,3,2,4,2,4,4,1,Negative,Medium,Medium
+506,18-24,Male,Old,Tank Tops,0,1,1,1,5,5,5,5,5,Negative,High,High
+507,25-34,Female,New,Hoodies,1,4,4,4,2,5,2,3,1,Positive,High,Medium
+508,55+,Male,New,Tank Tops,2,4,4,2,1,5,3,4,5,Positive,Medium,High
+509,25-34,Male,New,T-Shirts,1,5,4,5,5,5,3,4,1,Positive,High,Medium
+510,45-54,Female,Old,Hoodies,2,2,1,4,1,1,5,4,1,Negative,Medium,Medium
+511,45-54,Female,New,Tank Tops,1,1,4,4,3,5,1,5,4,Negative,High,Medium
+512,55+,Female,Old,Hoodies,2,5,4,4,4,5,4,3,2,Positive,High,Medium
+513,35-44,Female,Old,Joggers,2,5,2,1,1,3,4,1,3,Positive,Low,Medium
+514,45-54,Female,Old,Hoodies,1,4,4,2,2,2,2,2,4,Positive,Medium,Medium
+515,18-24,Male,New,Shorts,1,5,3,4,4,2,5,4,5,Positive,Medium,High
+516,55+,Male,New,Shorts,3,5,1,5,5,3,5,3,2,Positive,High,Medium
+517,25-34,Female,New,T-Shirts,3,5,4,1,4,5,1,1,3,Positive,Medium,Low
+518,55+,Male,New,Shorts,0,1,5,5,2,2,1,2,3,Negative,Medium,Medium
+519,18-24,Male,New,Tank Tops,2,2,1,4,1,2,1,4,2,Negative,Medium,Medium
+520,55+,Male,Old,Shorts,4,2,1,1,5,2,5,4,5,Positive,Medium,High
+521,18-24,Female,New,Shorts,3,5,4,3,5,5,5,2,3,Positive,High,Medium
+522,55+,Female,Old,Tank Tops,2,2,1,3,3,3,4,3,4,Negative,Medium,High
+523,25-34,Male,New,Hoodies,5,4,4,1,1,3,3,4,5,Positive,Low,High
+524,45-54,Female,New,Hoodies,5,5,4,2,4,1,5,5,2,Positive,Medium,High
+525,55+,Female,New,T-Shirts,1,3,4,4,2,1,3,3,4,Positive,Medium,Medium
+526,18-24,Male,New,Joggers,4,2,2,2,2,1,4,2,3,Positive,Low,Medium
+527,25-34,Male,Old,Hoodies,4,3,1,5,1,3,2,5,5,Positive,Medium,High
+528,55+,Female,New,T-Shirts,3,1,5,1,1,2,4,2,5,Positive,Low,High
+529,25-34,Female,Old,Tank Tops,3,1,1,3,3,5,5,2,4,Negative,High,High
+530,18-24,Male,Old,Joggers,3,3,5,4,4,2,3,3,4,Positive,Medium,Medium
+531,35-44,Female,New,Shorts,2,5,3,3,3,5,3,3,5,Positive,High,High
+532,25-34,Female,New,Shorts,4,1,4,2,5,4,1,1,2,Positive,High,Low
+533,45-54,Male,Old,Tank Tops,4,1,4,4,2,1,2,3,4,Positive,Medium,Medium
+534,45-54,Male,New,Tank Tops,2,5,5,5,2,2,3,4,4,Positive,Medium,High
+535,25-34,Female,Old,Tank Tops,3,2,5,3,3,1,4,3,4,Positive,Medium,High
+536,55+,Female,New,Tank Tops,2,4,3,1,2,4,2,3,3,Positive,Medium,Medium
+537,25-34,Female,Old,Tank Tops,1,2,1,1,5,1,3,4,3,Negative,Medium,Medium
+538,45-54,Female,New,T-Shirts,1,2,5,5,1,3,1,1,3,Positive,Medium,Low
+539,55+,Male,Old,Shorts,1,5,1,1,5,4,3,5,4,Positive,Medium,High
+540,18-24,Male,Old,Hoodies,1,4,2,2,1,5,1,5,5,Positive,Medium,High
+541,25-34,Male,New,Joggers,4,4,2,3,3,1,3,2,4,Positive,Medium,Medium
+542,55+,Male,Old,Hoodies,5,2,2,2,1,2,4,1,1,Positive,Low,Medium
+543,45-54,Female,New,Tank Tops,1,5,4,4,2,3,4,4,3,Positive,Medium,High
+544,55+,Female,Old,Hoodies,4,5,5,5,1,4,5,5,3,Positive,Medium,High
+545,35-44,Male,New,Shorts,1,5,3,3,3,2,2,1,4,Positive,Medium,Medium
+546,55+,Female,Old,Joggers,4,3,1,4,3,5,1,4,5,Positive,High,Medium
+547,35-44,Female,Old,Tank Tops,5,4,1,4,5,1,5,2,1,Positive,Medium,Medium
+548,55+,Female,New,Shorts,2,2,5,4,5,1,5,3,4,Positive,Medium,High
+549,45-54,Male,Old,Joggers,3,1,2,2,2,3,1,5,1,Negative,Medium,Medium
+550,55+,Female,New,Joggers,1,3,2,1,1,1,5,5,2,Negative,Low,High
+551,18-24,Female,Old,Joggers,4,2,5,5,2,4,5,5,5,Positive,High,High
+552,18-24,Female,New,T-Shirts,1,5,1,2,4,5,5,4,2,Positive,High,High
+553,18-24,Male,Old,Shorts,5,2,2,1,5,4,4,2,4,Positive,Medium,Medium
+554,25-34,Male,New,Hoodies,5,2,2,3,3,2,3,3,3,Positive,Medium,Medium
+555,18-24,Male,New,Hoodies,4,3,1,1,1,2,1,5,2,Positive,Low,Medium
+556,55+,Female,New,Hoodies,5,1,3,2,5,5,3,2,5,Positive,High,Medium
+557,25-34,Male,Old,T-Shirts,5,1,5,5,5,1,4,3,2,Positive,High,Medium
+558,35-44,Female,Old,Hoodies,1,2,5,2,1,1,4,1,2,Positive,Low,Medium
+559,55+,Female,Old,Hoodies,4,1,5,2,2,2,4,1,4,Positive,Medium,Medium
+560,18-24,Male,Old,Joggers,1,5,1,3,4,3,2,4,5,Positive,Medium,High
+561,45-54,Female,New,Shorts,5,4,2,3,2,3,1,2,2,Positive,Medium,Low
+562,25-34,Female,Old,T-Shirts,2,4,2,3,3,4,5,3,1,Positive,Medium,Medium
+563,25-34,Male,New,T-Shirts,2,4,3,1,4,5,3,4,5,Positive,Medium,High
+564,45-54,Female,Old,T-Shirts,3,3,5,5,4,2,2,2,2,Positive,High,Medium
+565,18-24,Female,Old,Hoodies,3,4,4,5,4,1,2,1,1,Positive,Medium,Low
+566,25-34,Male,Old,Tank Tops,5,4,4,3,4,3,3,3,3,Positive,Medium,Medium
+567,45-54,Female,New,Hoodies,2,2,5,2,5,5,5,1,2,Positive,High,Medium
+568,18-24,Female,New,Tank Tops,3,2,5,2,3,3,3,5,5,Positive,Medium,High
+569,18-24,Male,New,Joggers,4,5,4,4,5,3,1,1,2,Positive,High,Low
+570,18-24,Female,Old,Tank Tops,3,2,5,1,4,1,1,2,2,Positive,Medium,Low
+571,55+,Female,New,Joggers,1,5,1,1,3,2,4,3,2,Positive,Medium,Medium
+572,55+,Male,Old,Tank Tops,1,1,2,2,3,2,2,3,3,Negative,Medium,Medium
+573,18-24,Male,Old,T-Shirts,1,4,3,2,4,2,2,3,1,Positive,Medium,Medium
+574,55+,Female,New,Shorts,1,1,5,3,4,2,3,1,5,Positive,Medium,Medium
+575,55+,Female,New,T-Shirts,3,3,2,4,4,1,1,1,5,Positive,Medium,Medium
+576,18-24,Male,Old,T-Shirts,4,4,4,5,3,4,2,2,1,Positive,High,Low
+577,18-24,Female,Old,Shorts,2,4,5,4,4,2,5,5,1,Positive,Medium,High
+578,25-34,Male,New,Joggers,2,4,1,4,4,2,3,5,3,Positive,Medium,High
+579,35-44,Female,New,Joggers,4,4,2,4,4,4,3,2,4,Positive,High,Medium
+580,35-44,Female,New,Tank Tops,5,1,5,4,5,2,2,4,5,Positive,High,High
+581,25-34,Female,Old,Joggers,5,5,2,1,3,4,5,2,3,Positive,Medium,Medium
+582,55+,Male,Old,T-Shirts,5,4,1,4,4,4,4,1,4,Positive,High,Medium
+583,35-44,Female,New,Tank Tops,4,4,1,2,4,5,3,5,5,Positive,High,High
+584,25-34,Female,Old,Tank Tops,3,4,1,2,1,5,5,3,1,Positive,Medium,Medium
+585,25-34,Male,New,Joggers,4,5,3,5,1,2,5,5,5,Positive,Medium,High
+586,18-24,Male,New,T-Shirts,4,2,3,4,1,2,3,5,3,Positive,Medium,High
+587,55+,Female,New,Tank Tops,4,3,1,4,2,4,1,4,2,Positive,Medium,Medium
+588,55+,Female,Old,Shorts,4,2,3,2,4,4,2,1,4,Positive,Medium,Medium
+589,45-54,Female,Old,Joggers,1,1,5,3,5,1,4,4,2,Positive,Medium,Medium
+590,18-24,Male,Old,T-Shirts,1,3,4,3,3,4,4,2,2,Positive,Medium,Medium
+591,45-54,Male,Old,Tank Tops,3,5,5,2,3,2,3,2,4,Positive,Medium,Medium
+592,25-34,Female,Old,Joggers,2,2,5,3,3,5,2,2,4,Positive,High,Medium
+593,45-54,Female,New,Joggers,1,3,1,5,5,1,4,3,5,Negative,High,High
+594,55+,Female,Old,Joggers,2,2,1,2,3,5,2,5,3,Negative,Medium,Medium
+595,35-44,Female,New,T-Shirts,4,4,2,4,5,5,1,4,1,Positive,High,Medium
+596,55+,Female,Old,Hoodies,1,2,1,2,4,4,3,1,5,Negative,Medium,Medium
+597,45-54,Male,Old,Joggers,4,2,4,4,3,5,1,3,4,Positive,High,Medium
+598,25-34,Female,Old,Hoodies,4,4,4,3,5,2,2,3,4,Positive,Medium,Medium
+599,45-54,Female,New,Tank Tops,1,3,5,1,3,4,2,2,1,Positive,Medium,Low
+600,35-44,Female,Old,Tank Tops,1,1,1,1,1,4,1,2,5,Negative,Medium,Medium
+601,45-54,Male,Old,Shorts,2,3,2,2,1,2,2,2,5,Positive,Low,Medium
+602,55+,Female,Old,Shorts,4,2,5,4,4,1,1,3,3,Positive,Medium,Medium
+603,35-44,Female,New,Hoodies,4,4,1,2,4,2,5,3,1,Positive,Medium,Medium
+604,35-44,Female,Old,Shorts,2,2,4,1,2,5,4,4,3,Positive,Medium,High
+605,55+,Female,New,Shorts,2,1,2,1,2,4,1,4,5,Negative,Medium,Medium
+606,55+,Female,Old,Hoodies,4,1,2,4,5,4,4,5,5,Positive,High,High
+607,55+,Male,New,Shorts,5,5,1,1,2,5,2,5,4,Positive,Medium,High
+608,25-34,Female,Old,Joggers,3,3,2,5,1,1,4,5,5,Positive,Medium,High
+609,45-54,Female,Old,Tank Tops,3,2,1,2,3,3,3,1,3,Negative,Medium,Medium
+610,35-44,Female,New,Hoodies,1,5,5,4,3,5,3,4,3,Positive,High,Medium
+611,55+,Female,New,Hoodies,4,5,3,1,5,1,1,1,5,Positive,Medium,Medium
+612,55+,Female,Old,Hoodies,1,2,5,4,1,5,2,5,4,Positive,Medium,High
+613,35-44,Female,Old,T-Shirts,2,5,4,3,1,4,1,4,1,Positive,Medium,Medium
+614,35-44,Female,Old,Hoodies,1,3,4,2,5,5,2,4,2,Positive,High,Medium
+615,45-54,Male,New,Hoodies,4,1,2,2,5,1,1,3,4,Positive,Medium,Medium
+616,35-44,Male,Old,Joggers,2,2,5,1,3,3,1,2,1,Positive,Medium,Low
+617,18-24,Female,Old,T-Shirts,1,2,3,2,1,4,3,2,5,Negative,Medium,Medium
+618,55+,Female,New,Hoodies,4,5,2,4,4,4,5,3,3,Positive,High,High
+619,25-34,Male,New,Hoodies,3,2,4,1,5,4,2,1,4,Positive,Medium,Medium
+620,55+,Female,Old,Joggers,5,4,4,5,3,3,2,4,1,Positive,High,Medium
+621,45-54,Male,Old,Shorts,4,1,1,4,3,5,5,2,5,Negative,High,High
+622,25-34,Male,New,Hoodies,1,1,2,1,3,2,1,2,3,Negative,Medium,Medium
+623,45-54,Female,Old,Shorts,3,3,2,1,3,2,2,2,2,Positive,Medium,Medium
+624,45-54,Female,Old,Tank Tops,1,3,1,2,3,4,4,5,5,Negative,Medium,High
+625,18-24,Female,New,Tank Tops,1,3,5,3,5,1,5,3,1,Positive,Medium,Medium
+626,35-44,Male,New,Hoodies,4,1,1,1,3,4,5,5,4,Negative,Medium,High
+627,55+,Female,Old,T-Shirts,1,2,3,5,5,4,2,2,5,Negative,High,Medium
+628,45-54,Female,New,Shorts,2,3,1,5,1,3,3,1,3,Negative,Medium,Medium
+629,18-24,Male,New,Joggers,4,4,5,5,5,1,1,4,5,Positive,High,Medium
+630,55+,Female,Old,Shorts,3,4,1,3,5,3,1,2,4,Positive,High,Medium
+631,45-54,Female,New,Hoodies,4,3,3,3,1,1,2,4,3,Positive,Low,Medium
+632,55+,Female,Old,Shorts,2,2,2,2,3,4,3,3,4,Negative,Medium,Medium
+633,25-34,Female,Old,Shorts,4,5,1,1,2,1,5,5,1,Positive,Low,High
+634,25-34,Male,Old,Hoodies,5,1,3,1,4,4,4,3,1,Positive,Medium,Medium
+635,45-54,Male,New,Shorts,5,2,5,1,5,4,2,2,5,Positive,Medium,Medium
+636,45-54,Female,Old,Shorts,3,3,2,4,2,2,4,1,5,Positive,Medium,Medium
+637,55+,Male,New,Hoodies,2,4,4,2,4,2,5,4,3,Positive,Medium,High
+638,25-34,Male,Old,Hoodies,3,4,2,3,4,3,2,3,3,Positive,Medium,Medium
+639,25-34,Female,New,Joggers,5,3,2,4,5,5,4,3,1,Positive,High,Medium
+640,45-54,Male,New,Joggers,1,5,2,1,5,1,5,5,1,Positive,Medium,High
+641,18-24,Female,Old,Tank Tops,5,5,2,1,4,1,3,3,3,Positive,Medium,Medium
+642,25-34,Female,New,Hoodies,2,4,1,3,5,2,3,4,5,Positive,Medium,High
+643,25-34,Male,New,Joggers,1,3,3,2,2,3,2,2,3,Positive,Medium,Medium
+644,45-54,Female,New,T-Shirts,4,4,3,2,5,3,2,4,2,Positive,Medium,Medium
+645,45-54,Male,New,Joggers,5,2,2,1,1,4,4,4,3,Positive,Medium,High
+646,18-24,Male,Old,Tank Tops,1,2,1,2,3,3,2,2,2,Negative,Medium,Medium
+647,25-34,Male,Old,T-Shirts,1,3,5,5,5,3,4,3,2,Positive,High,Medium
+648,55+,Female,New,Tank Tops,1,5,5,4,5,2,2,3,4,Positive,High,Medium
+649,18-24,Female,New,Tank Tops,3,5,4,4,2,5,5,2,5,Positive,High,High
+650,25-34,Male,Old,Joggers,1,4,4,5,1,3,3,3,3,Positive,Medium,Medium
+651,35-44,Female,New,Shorts,5,3,2,3,1,2,2,1,4,Positive,Medium,Medium
+652,18-24,Female,New,Hoodies,2,5,4,4,5,4,4,5,5,Positive,High,High
+653,25-34,Male,Old,T-Shirts,4,5,4,4,4,4,3,2,2,Positive,High,Medium
+654,25-34,Female,New,Hoodies,1,1,2,1,4,1,3,5,4,Negative,Medium,High
+655,45-54,Female,New,T-Shirts,4,4,2,2,5,5,4,5,3,Positive,High,High
+656,45-54,Male,Old,Joggers,1,2,1,1,2,4,3,5,1,Negative,Medium,Medium
+657,25-34,Male,New,Shorts,5,2,3,5,4,2,5,2,1,Positive,High,Medium
+658,25-34,Male,New,Joggers,4,5,4,4,2,2,1,1,3,Positive,Medium,Low
+659,35-44,Female,New,Joggers,2,3,5,5,5,5,2,3,5,Positive,High,Medium
+660,35-44,Female,New,T-Shirts,3,3,4,5,2,2,5,5,3,Positive,Medium,High
+661,55+,Male,Old,Tank Tops,1,3,4,3,5,2,1,4,1,Positive,Medium,Medium
+662,25-34,Male,Old,Tank Tops,1,1,1,5,5,3,4,3,1,Negative,High,Medium
+663,35-44,Female,New,Tank Tops,4,3,3,1,4,5,4,5,2,Positive,Medium,High
+664,55+,Male,Old,Joggers,4,3,3,4,3,2,2,5,4,Positive,Medium,High
+665,25-34,Female,New,Hoodies,2,2,4,3,5,5,3,1,1,Positive,High,Low
+666,25-34,Female,New,T-Shirts,3,4,5,4,3,5,4,2,3,Positive,High,Medium
+667,25-34,Male,New,Joggers,1,5,4,3,1,5,5,4,2,Positive,Medium,High
+668,55+,Male,Old,Tank Tops,4,5,4,5,2,3,2,4,1,Positive,Medium,Medium
+669,25-34,Female,Old,Tank Tops,5,5,4,5,2,1,3,1,3,Positive,Medium,Medium
+670,25-34,Female,New,Hoodies,2,2,3,2,3,3,4,4,5,Positive,Medium,High
+671,35-44,Female,Old,Shorts,1,1,1,2,1,2,3,3,5,Negative,Low,High
+672,45-54,Male,Old,Hoodies,5,3,2,5,2,2,1,3,4,Positive,Medium,Medium
+673,55+,Female,New,Tank Tops,4,5,5,3,3,1,1,5,3,Positive,Medium,Medium
+674,55+,Female,New,Tank Tops,5,5,1,4,4,2,4,2,5,Positive,Medium,High
+675,45-54,Male,Old,Joggers,2,3,3,1,4,4,1,5,5,Positive,Medium,High
+676,55+,Female,Old,Tank Tops,5,4,5,3,4,1,4,2,2,Positive,Medium,Medium
+677,45-54,Female,New,T-Shirts,5,3,3,4,3,2,5,2,3,Positive,Medium,Medium
+678,18-24,Female,Old,Hoodies,5,4,5,3,2,1,2,5,1,Positive,Medium,Medium
+679,18-24,Male,Old,Shorts,2,2,3,4,3,4,3,5,4,Positive,High,High
+680,18-24,Female,New,Tank Tops,2,1,2,3,4,3,5,4,4,Negative,Medium,High
+681,45-54,Female,Old,Hoodies,4,4,3,5,3,3,4,1,3,Positive,High,Medium
+682,35-44,Male,Old,T-Shirts,1,5,4,2,4,4,1,4,2,Positive,Medium,Medium
+683,18-24,Female,Old,T-Shirts,3,4,2,5,2,5,5,5,3,Positive,High,High
+684,25-34,Female,Old,T-Shirts,3,3,4,1,4,5,1,1,5,Positive,Medium,Medium
+685,35-44,Female,New,Hoodies,5,1,1,4,2,1,4,5,5,Positive,Medium,High
+686,25-34,Male,Old,Joggers,2,2,2,1,1,1,2,1,5,Negative,Low,Medium
+687,25-34,Female,Old,Hoodies,1,4,2,4,4,3,4,5,4,Positive,High,High
+688,35-44,Female,New,Joggers,3,5,1,3,1,1,3,1,5,Positive,Low,Medium
+689,55+,Male,New,Joggers,2,5,3,2,5,3,4,2,3,Positive,Medium,Medium
+690,35-44,Female,New,T-Shirts,2,4,2,2,1,2,2,3,1,Positive,Low,Medium
+691,18-24,Female,Old,Hoodies,4,4,2,5,3,2,1,2,5,Positive,Medium,Medium
+692,35-44,Female,Old,Tank Tops,4,4,3,1,2,2,4,2,5,Positive,Low,High
+693,35-44,Female,New,T-Shirts,4,5,3,2,3,1,5,3,2,Positive,Medium,Medium
+694,45-54,Male,Old,Shorts,1,4,5,1,1,4,5,2,4,Positive,Medium,High
+695,45-54,Female,Old,Shorts,3,5,1,4,1,3,2,5,5,Positive,Medium,High
+696,35-44,Female,New,Shorts,3,3,1,4,1,4,4,1,4,Positive,Medium,Medium
+697,35-44,Female,Old,Shorts,3,2,1,3,2,3,4,5,5,Negative,Medium,High
+698,25-34,Male,New,Joggers,1,4,2,1,1,1,5,2,3,Positive,Low,Medium
+699,35-44,Male,New,Tank Tops,5,2,1,3,1,2,3,3,1,Positive,Medium,Medium
+700,25-34,Female,Old,Joggers,2,5,5,1,1,4,5,3,4,Positive,Medium,High
+701,18-24,Female,Old,Tank Tops,3,2,3,2,1,5,5,4,5,Positive,Medium,High
+702,35-44,Male,New,Hoodies,4,3,5,1,4,3,3,3,2,Positive,Medium,Medium
+703,18-24,Male,Old,Hoodies,4,2,2,3,5,2,1,5,3,Positive,Medium,Medium
+704,25-34,Male,Old,Hoodies,5,1,3,1,5,3,2,2,5,Positive,Medium,Medium
+705,25-34,Female,New,Shorts,2,4,4,3,5,2,4,5,1,Positive,Medium,Medium
+706,35-44,Male,Old,Shorts,4,3,5,4,1,5,5,2,3,Positive,Medium,Medium
+707,35-44,Male,Old,Tank Tops,5,4,5,3,3,2,4,1,3,Positive,Medium,Medium
+708,55+,Male,New,Joggers,3,1,2,2,3,4,3,2,1,Negative,Medium,Medium
+709,45-54,Female,New,Hoodies,1,1,1,1,2,5,3,1,5,Negative,Medium,Medium
+710,18-24,Male,New,Shorts,3,2,2,2,3,2,1,3,2,Positive,Medium,Medium
+711,35-44,Female,Old,Joggers,1,1,2,1,2,5,5,5,1,Negative,Medium,High
+712,25-34,Female,New,Hoodies,5,3,1,4,4,4,2,5,5,Positive,High,High
+713,25-34,Female,Old,Hoodies,5,2,1,2,1,1,4,4,1,Positive,Low,Medium
+714,45-54,Female,New,Joggers,1,2,2,1,4,2,3,5,5,Negative,Medium,High
+715,25-34,Female,Old,Joggers,4,4,2,4,1,2,5,4,1,Positive,Medium,Medium
+716,35-44,Female,Old,Hoodies,3,3,5,3,2,2,3,5,3,Positive,Medium,High
+717,25-34,Female,New,Tank Tops,2,1,1,1,5,4,5,2,5,Negative,Medium,High
+718,18-24,Female,New,Tank Tops,3,3,1,2,5,3,3,1,1,Positive,Medium,Low
+719,25-34,Male,Old,Joggers,5,1,4,4,5,5,2,5,2,Positive,High,Medium
+720,25-34,Female,New,T-Shirts,1,1,2,1,2,2,1,1,1,Negative,Low,Low
+721,55+,Female,Old,Tank Tops,2,2,2,4,4,3,4,1,4,Negative,High,Medium
+722,18-24,Female,Old,T-Shirts,1,2,1,2,3,2,3,2,2,Negative,Medium,Medium
+723,25-34,Male,New,Joggers,2,2,2,3,2,3,2,3,2,Negative,Medium,Medium
+724,45-54,Male,New,Tank Tops,3,3,2,3,4,4,1,1,2,Positive,High,Low
+725,35-44,Female,Old,Joggers,3,1,4,5,3,3,5,3,5,Positive,High,High
+726,55+,Male,Old,Hoodies,4,1,4,1,4,3,3,5,5,Positive,Medium,High
+727,35-44,Male,New,Joggers,2,3,2,3,2,1,2,3,3,Positive,Medium,Medium
+728,18-24,Male,New,Tank Tops,3,2,2,3,1,3,4,3,5,Positive,Medium,High
+729,55+,Male,New,Tank Tops,1,3,3,5,4,1,3,2,4,Positive,Medium,Medium
+730,25-34,Male,New,Joggers,1,1,1,1,3,4,5,4,3,Negative,Medium,High
+731,45-54,Female,New,T-Shirts,1,2,1,3,5,4,2,5,5,Negative,High,High
+732,35-44,Male,New,Shorts,3,5,2,4,5,2,1,4,5,Positive,High,Medium
+733,45-54,Male,Old,Hoodies,2,2,3,2,3,2,3,2,3,Positive,Medium,Medium
+734,45-54,Male,New,Tank Tops,4,1,5,2,1,5,1,3,4,Positive,Medium,Medium
+735,55+,Male,Old,Tank Tops,3,2,2,4,2,5,3,2,2,Positive,High,Medium
+736,25-34,Male,New,Tank Tops,1,3,4,5,4,5,5,1,2,Positive,High,Medium
+737,35-44,Male,Old,Shorts,2,1,5,1,4,5,4,3,2,Positive,Medium,Medium
+738,35-44,Female,Old,Joggers,2,1,5,5,2,4,2,2,3,Positive,High,Medium
+739,55+,Female,New,T-Shirts,5,2,1,3,3,2,1,4,1,Positive,Medium,Medium
+740,25-34,Female,New,Hoodies,3,3,2,1,3,5,3,1,2,Positive,Medium,Medium
+741,25-34,Female,Old,Hoodies,2,1,2,3,1,5,3,3,2,Negative,Medium,Medium
+742,25-34,Female,New,Hoodies,2,3,2,3,3,4,4,4,5,Positive,Medium,High
+743,35-44,Male,Old,Joggers,4,3,2,3,1,2,3,3,4,Positive,Medium,Medium
+744,45-54,Female,New,Tank Tops,2,4,3,4,4,3,1,2,5,Positive,High,Medium
+745,45-54,Male,New,Hoodies,2,3,4,2,1,4,1,3,4,Positive,Medium,Medium
+746,45-54,Female,Old,Shorts,4,5,1,3,5,2,5,1,5,Positive,Medium,High
+747,55+,Male,New,Tank Tops,5,2,3,3,3,4,3,3,2,Positive,Medium,Medium
+748,25-34,Female,New,Joggers,5,3,1,1,2,1,3,4,1,Positive,Low,Medium
+749,18-24,Female,New,Shorts,5,1,2,4,5,2,5,5,4,Positive,High,High
+750,35-44,Male,Old,Joggers,4,3,4,4,2,1,5,3,1,Positive,Medium,Medium
+751,18-24,Female,Old,Shorts,4,4,3,4,2,5,2,5,4,Positive,High,High
+752,18-24,Female,New,Joggers,3,2,1,3,2,3,2,1,2,Negative,Medium,Low
+753,25-34,Female,Old,Tank Tops,5,5,5,1,2,2,2,1,1,Positive,Low,Low
+754,45-54,Male,New,Joggers,5,3,4,3,5,4,5,4,5,Positive,High,High
+755,55+,Male,Old,Shorts,4,3,2,5,3,5,3,5,5,Positive,High,High
+756,55+,Male,New,Hoodies,5,1,3,4,5,1,4,5,2,Positive,Medium,High
+757,55+,Female,Old,Shorts,2,2,1,4,5,2,1,3,5,Negative,High,Medium
+758,35-44,Male,Old,Hoodies,1,3,5,1,3,3,2,4,1,Positive,Medium,Medium
+759,35-44,Male,Old,Hoodies,5,3,2,1,5,2,5,3,2,Positive,Medium,Medium
+760,55+,Male,Old,T-Shirts,2,5,3,5,4,2,1,3,1,Positive,High,Low
+761,45-54,Female,Old,Tank Tops,4,2,4,1,2,4,3,4,4,Positive,Medium,High
+762,25-34,Male,New,Tank Tops,1,2,2,4,3,2,1,4,5,Negative,Medium,Medium
+763,45-54,Male,New,Hoodies,4,5,4,4,1,2,4,5,3,Positive,Medium,High
+764,35-44,Male,New,Hoodies,2,1,1,5,5,4,3,1,1,Negative,High,Low
+765,18-24,Male,Old,Shorts,3,3,5,1,1,1,3,1,1,Positive,Low,Low
+766,55+,Male,Old,Shorts,4,4,3,1,3,1,1,5,2,Positive,Low,Medium
+767,25-34,Female,Old,Shorts,2,1,4,3,4,1,1,1,4,Positive,Medium,Medium
+768,18-24,Female,Old,Shorts,3,4,3,4,2,2,1,3,3,Positive,Medium,Medium
+769,55+,Female,New,Hoodies,3,3,4,1,2,2,4,2,4,Positive,Low,Medium
+770,55+,Female,New,Shorts,3,4,3,2,5,5,3,5,4,Positive,High,High
+771,55+,Male,New,Shorts,4,2,1,1,1,4,4,4,1,Positive,Medium,Medium
+772,45-54,Female,Old,Hoodies,4,1,1,2,3,4,4,3,1,Negative,Medium,Medium
+773,55+,Male,New,Tank Tops,4,1,5,4,1,1,2,5,4,Positive,Medium,High
+774,45-54,Male,Old,Tank Tops,1,3,4,3,5,3,5,5,1,Positive,High,High
+775,45-54,Female,New,T-Shirts,3,5,4,3,2,3,5,5,2,Positive,Medium,High
+776,55+,Male,Old,Tank Tops,3,2,2,5,1,2,3,4,5,Positive,Medium,High
+777,35-44,Female,New,Tank Tops,5,1,3,1,5,3,5,1,1,Positive,Medium,Medium
+778,35-44,Male,New,T-Shirts,4,5,1,4,2,5,2,5,4,Positive,High,High
+779,18-24,Male,New,Shorts,3,3,2,2,3,1,2,3,1,Positive,Medium,Medium
+780,18-24,Male,New,Tank Tops,5,1,3,5,5,5,5,2,1,Positive,High,Medium
+781,55+,Female,Old,Tank Tops,4,4,4,4,1,5,1,3,3,Positive,Medium,Medium
+782,35-44,Female,New,Tank Tops,3,2,5,2,3,2,4,5,2,Positive,Medium,High
+783,18-24,Female,Old,Joggers,3,2,2,3,1,4,4,5,5,Positive,Medium,High
+784,18-24,Female,New,Tank Tops,1,3,4,1,5,2,3,1,3,Positive,Medium,Medium
+785,35-44,Male,New,Shorts,2,2,3,1,2,2,3,4,5,Positive,Low,High
+786,45-54,Male,Old,T-Shirts,2,2,2,4,2,3,2,5,1,Negative,Medium,Medium
+787,35-44,Female,New,Hoodies,4,1,5,3,2,3,1,3,5,Positive,Medium,Medium
+788,18-24,Male,Old,Tank Tops,4,1,2,5,3,3,1,4,5,Positive,High,Medium
+789,55+,Male,Old,Joggers,4,4,5,2,5,1,4,3,1,Positive,Medium,Medium
+790,55+,Male,Old,Hoodies,1,5,2,3,3,3,1,4,4,Positive,Medium,Medium
+791,55+,Female,Old,Tank Tops,2,4,5,1,4,4,4,1,3,Positive,Medium,Medium
+792,18-24,Male,New,T-Shirts,5,3,1,5,5,4,5,3,5,Positive,High,High
+793,18-24,Female,New,Joggers,3,3,1,2,2,5,1,2,2,Positive,Medium,Low
+794,45-54,Female,Old,Hoodies,2,2,1,4,3,5,3,2,2,Negative,High,Medium
+795,35-44,Male,New,Hoodies,2,3,2,3,3,3,4,3,3,Positive,Medium,Medium
+796,18-24,Female,New,Shorts,3,2,3,3,2,1,5,3,5,Positive,Medium,High
+797,35-44,Female,Old,Shorts,2,1,2,3,3,3,3,3,3,Negative,Medium,Medium
+798,35-44,Male,New,Joggers,2,3,1,2,3,2,3,3,4,Negative,Medium,Medium
+799,55+,Male,New,Joggers,2,4,4,1,2,5,3,5,4,Positive,Medium,High
+800,55+,Male,Old,Joggers,5,1,1,4,5,1,4,2,4,Positive,Medium,Medium
+801,55+,Male,New,Hoodies,5,3,2,1,4,5,3,4,2,Positive,Medium,Medium
+802,45-54,Male,Old,Joggers,2,1,1,4,2,3,1,1,3,Negative,Medium,Low
+803,45-54,Female,Old,T-Shirts,2,1,1,4,2,4,4,3,5,Negative,Medium,High
+804,25-34,Male,Old,T-Shirts,3,2,4,1,5,4,5,4,3,Positive,Medium,High
+805,55+,Male,New,Joggers,1,3,5,1,5,1,2,5,4,Positive,Medium,High
+806,45-54,Female,New,T-Shirts,2,4,5,1,4,4,5,2,5,Positive,Medium,High
+807,18-24,Male,New,Shorts,1,1,3,2,4,1,2,4,3,Negative,Medium,Medium
+808,35-44,Female,Old,Shorts,2,3,2,2,5,4,2,3,1,Positive,High,Medium
+809,35-44,Female,Old,T-Shirts,4,4,4,3,4,3,3,4,4,Positive,Medium,High
+810,45-54,Male,New,T-Shirts,1,2,4,3,4,5,3,2,5,Positive,High,Medium
+811,18-24,Male,Old,Hoodies,2,4,5,2,1,4,3,2,5,Positive,Medium,Medium
+812,55+,Male,Old,T-Shirts,3,3,3,3,4,4,1,3,3,Positive,High,Medium
+813,45-54,Male,New,Hoodies,2,4,5,1,5,3,2,1,4,Positive,Medium,Medium
+814,18-24,Male,Old,Tank Tops,3,4,2,4,5,5,5,3,2,Positive,High,Medium
+815,18-24,Male,New,Tank Tops,4,4,2,2,5,3,4,1,4,Positive,Medium,Medium
+816,55+,Male,Old,T-Shirts,2,1,5,1,2,1,5,5,1,Positive,Low,High
+817,25-34,Male,Old,Joggers,5,3,4,3,5,2,4,5,2,Positive,Medium,High
+818,18-24,Male,Old,Shorts,3,3,4,4,4,4,4,3,2,Positive,High,Medium
+819,55+,Male,Old,Hoodies,3,4,3,3,5,3,1,1,2,Positive,High,Low
+820,55+,Male,Old,Shorts,4,4,5,5,4,3,2,5,4,Positive,High,High
+821,35-44,Female,Old,Tank Tops,3,2,5,2,1,3,2,2,2,Positive,Medium,Medium
+822,55+,Female,Old,T-Shirts,1,4,5,5,1,3,4,2,2,Positive,Medium,Medium
+823,45-54,Male,New,Joggers,4,5,1,4,1,3,2,3,2,Positive,Medium,Medium
+824,18-24,Male,New,Joggers,3,1,1,2,1,3,3,3,2,Negative,Medium,Medium
+825,35-44,Male,New,Hoodies,3,1,3,5,4,4,1,4,1,Positive,High,Medium
+826,25-34,Female,Old,Hoodies,3,2,5,2,4,2,4,3,3,Positive,Medium,Medium
+827,55+,Female,New,Tank Tops,4,4,5,3,3,2,4,4,2,Positive,Medium,Medium
+828,25-34,Male,Old,Hoodies,3,3,3,4,4,5,1,5,5,Positive,High,High
+829,55+,Female,Old,Tank Tops,1,2,4,3,4,4,1,2,4,Positive,High,Medium
+830,45-54,Male,New,Tank Tops,1,5,3,3,5,2,2,2,4,Positive,Medium,Medium
+831,45-54,Female,New,Joggers,1,3,5,5,3,1,4,2,5,Positive,Medium,High
+832,25-34,Male,New,Joggers,2,2,4,1,5,1,2,5,3,Positive,Medium,Medium
+833,25-34,Female,New,Joggers,1,2,1,2,5,1,2,4,4,Negative,Medium,Medium
+834,18-24,Male,New,T-Shirts,3,2,2,3,2,2,1,2,3,Positive,Medium,Medium
+835,45-54,Female,Old,Hoodies,5,5,5,5,2,2,3,4,1,Positive,Medium,Medium
+836,25-34,Male,Old,Hoodies,2,5,2,3,1,5,4,4,4,Positive,Medium,High
+837,25-34,Female,Old,Joggers,3,2,5,3,3,2,2,1,2,Positive,Medium,Low
+838,25-34,Female,Old,Hoodies,2,2,1,3,4,1,4,1,3,Negative,Medium,Medium
+839,45-54,Male,Old,Shorts,2,4,2,2,3,2,3,1,4,Positive,Medium,Medium
+840,45-54,Male,Old,Hoodies,1,1,3,2,1,3,2,1,1,Negative,Medium,Low
+841,45-54,Female,New,T-Shirts,1,2,3,2,5,2,4,2,2,Negative,Medium,Medium
+842,35-44,Female,New,Hoodies,5,1,2,5,1,3,1,3,1,Positive,Medium,Low
+843,45-54,Female,Old,Hoodies,4,1,5,3,4,1,3,1,5,Positive,Medium,Medium
+844,18-24,Male,New,Hoodies,3,1,4,3,3,3,5,2,2,Positive,Medium,Medium
+845,18-24,Female,Old,Tank Tops,1,1,1,4,5,3,2,5,2,Negative,High,Medium
+846,55+,Male,Old,Shorts,2,3,4,4,3,3,2,3,3,Positive,Medium,Medium
+847,45-54,Male,Old,T-Shirts,3,2,4,3,5,1,1,2,5,Positive,Medium,Medium
+848,35-44,Male,Old,Tank Tops,4,4,4,4,2,2,3,1,4,Positive,Medium,Medium
+849,45-54,Male,Old,T-Shirts,5,4,3,1,3,5,5,5,3,Positive,Medium,High
+850,35-44,Male,Old,Tank Tops,4,3,2,2,2,1,1,3,4,Positive,Low,Medium
+851,35-44,Male,Old,Joggers,2,3,2,2,2,5,5,5,3,Positive,Medium,High
+852,35-44,Female,Old,Hoodies,3,4,3,1,1,2,5,1,4,Positive,Low,Medium
+853,55+,Female,New,Hoodies,4,1,2,5,3,4,5,2,3,Positive,High,Medium
+854,35-44,Male,New,T-Shirts,2,4,1,1,4,2,3,4,2,Positive,Medium,Medium
+855,25-34,Male,New,Hoodies,1,1,2,1,3,4,1,5,1,Negative,Medium,Medium
+856,45-54,Female,New,Hoodies,5,5,4,5,5,3,5,5,1,Positive,High,High
+857,45-54,Female,New,Tank Tops,5,5,2,5,5,1,4,5,1,Positive,High,Medium
+858,35-44,Male,New,T-Shirts,5,5,2,2,2,3,5,2,3,Positive,Medium,Medium
+859,25-34,Male,Old,T-Shirts,4,1,2,1,2,2,3,3,3,Positive,Low,Medium
+860,18-24,Female,Old,Shorts,4,4,2,4,5,1,3,3,4,Positive,Medium,Medium
+861,35-44,Male,New,Joggers,4,1,1,2,2,3,3,5,5,Negative,Medium,High
+862,45-54,Female,Old,Hoodies,3,5,5,2,2,3,2,1,2,Positive,Medium,Low
+863,25-34,Male,New,Tank Tops,3,2,5,3,3,5,3,3,1,Positive,High,Medium
+864,25-34,Male,New,Tank Tops,4,1,4,2,5,5,1,5,2,Positive,High,Medium
+865,35-44,Male,New,Tank Tops,1,5,4,3,2,4,5,2,1,Positive,Medium,Medium
+866,25-34,Female,New,Joggers,2,3,3,4,2,5,3,4,4,Positive,High,High
+867,45-54,Female,New,Tank Tops,5,4,3,4,3,5,2,1,1,Positive,High,Low
+868,55+,Male,Old,Tank Tops,1,3,5,5,2,4,5,3,3,Positive,High,High
+869,55+,Female,Old,Tank Tops,2,2,5,2,2,5,5,5,3,Positive,Medium,High
+870,18-24,Male,New,Hoodies,4,3,4,2,3,5,1,1,2,Positive,Medium,Low
+871,25-34,Female,New,Shorts,5,2,1,5,5,5,5,4,5,Positive,High,High
+872,55+,Female,New,Tank Tops,3,1,2,3,4,4,1,2,2,Negative,High,Low
+873,55+,Female,Old,Shorts,2,3,5,5,4,2,2,5,2,Positive,High,Medium
+874,18-24,Male,New,Hoodies,2,5,3,3,3,5,3,4,4,Positive,High,High
+875,35-44,Female,New,Joggers,1,5,2,1,5,3,5,5,5,Positive,Medium,High
+876,18-24,Female,Old,Joggers,3,4,2,3,4,3,4,5,5,Positive,Medium,High
+877,35-44,Female,Old,Tank Tops,3,2,1,2,3,2,4,5,3,Negative,Medium,High
+878,35-44,Female,New,Tank Tops,3,5,1,4,2,4,3,2,4,Positive,Medium,Medium
+879,45-54,Female,Old,Hoodies,3,5,1,3,4,3,2,3,4,Positive,Medium,Medium
+880,45-54,Male,Old,Hoodies,2,4,2,3,4,3,2,4,1,Positive,Medium,Medium
+881,55+,Male,Old,Hoodies,2,4,2,4,4,4,4,1,4,Positive,High,Medium
+882,18-24,Male,New,Joggers,3,3,3,4,1,4,1,2,5,Positive,Medium,Medium
+883,18-24,Female,New,T-Shirts,4,1,5,2,2,4,1,1,4,Positive,Medium,Medium
+884,35-44,Male,Old,Hoodies,4,3,5,5,5,3,4,2,4,Positive,High,Medium
+885,45-54,Male,Old,Shorts,1,5,5,4,3,1,5,5,2,Positive,Medium,High
+886,55+,Male,Old,Joggers,1,4,1,4,2,4,2,5,1,Negative,Medium,Medium
+887,45-54,Female,New,T-Shirts,5,5,1,5,5,5,4,5,1,Positive,High,Medium
+888,25-34,Male,New,T-Shirts,5,3,3,1,5,2,1,4,1,Positive,Medium,Medium
+889,35-44,Female,Old,T-Shirts,2,5,2,2,3,1,5,2,1,Positive,Medium,Medium
+890,18-24,Male,New,T-Shirts,4,3,2,2,4,4,3,5,2,Positive,Medium,Medium
+891,55+,Female,New,T-Shirts,1,4,1,4,1,1,2,5,4,Negative,Medium,High
+892,55+,Male,Old,Tank Tops,1,3,1,3,3,3,2,4,5,Negative,Medium,High
+893,35-44,Male,Old,Shorts,1,4,4,4,3,2,1,4,5,Positive,Medium,Medium
+894,25-34,Male,Old,Joggers,5,3,4,1,1,1,5,2,2,Positive,Low,Medium
+895,35-44,Male,Old,Joggers,1,1,3,4,2,4,4,4,2,Negative,Medium,Medium
+896,35-44,Female,Old,Tank Tops,4,2,1,4,4,1,1,2,3,Positive,Medium,Medium
+897,25-34,Female,New,Joggers,5,5,2,1,2,4,2,2,3,Positive,Medium,Medium
+898,25-34,Male,Old,Joggers,2,4,1,2,4,1,1,1,2,Positive,Medium,Low
+899,18-24,Female,New,Hoodies,1,5,4,1,1,4,1,4,4,Positive,Medium,Medium
+900,25-34,Male,New,Tank Tops,5,1,3,4,2,4,5,1,3,Positive,Medium,Medium
+901,55+,Male,Old,Hoodies,2,5,2,4,5,1,1,5,2,Positive,Medium,Medium
+902,25-34,Male,Old,T-Shirts,1,1,3,2,2,1,4,5,3,Negative,Low,High
+903,18-24,Male,New,Hoodies,1,3,1,2,5,2,4,1,5,Negative,Medium,Medium
+904,18-24,Female,New,Tank Tops,4,1,3,5,3,2,2,4,3,Positive,Medium,Medium
+905,55+,Male,New,Joggers,3,4,3,4,3,3,5,5,4,Positive,Medium,High
+906,35-44,Male,Old,Tank Tops,4,1,4,2,2,2,3,2,5,Positive,Medium,Medium
+907,55+,Male,New,Joggers,4,5,2,4,3,4,3,4,2,Positive,High,Medium
+908,35-44,Male,New,Tank Tops,5,4,4,3,2,3,4,4,1,Positive,Medium,Medium
+909,18-24,Female,Old,Hoodies,5,1,1,4,1,2,5,2,3,Positive,Medium,Medium
+910,25-34,Male,Old,Shorts,3,2,5,5,2,4,1,4,4,Positive,High,Medium
+911,25-34,Male,Old,Joggers,2,5,5,3,2,1,2,1,5,Positive,Medium,Medium
+912,45-54,Male,Old,Joggers,1,5,3,4,3,2,1,2,1,Positive,Medium,Low
+913,35-44,Female,New,T-Shirts,2,2,5,5,2,4,1,2,3,Positive,High,Medium
+914,55+,Male,Old,T-Shirts,4,4,1,1,1,3,1,2,1,Positive,Low,Low
+915,45-54,Female,Old,T-Shirts,5,2,4,2,3,4,1,5,5,Positive,Medium,High
+916,55+,Female,Old,Tank Tops,5,2,1,1,5,2,5,5,4,Positive,Medium,High
+917,18-24,Male,New,Tank Tops,2,1,5,5,1,2,2,1,5,Positive,Medium,Medium
+918,18-24,Female,Old,Hoodies,2,1,2,3,5,5,2,3,1,Negative,High,Medium
+919,45-54,Male,Old,Joggers,1,3,3,5,3,1,2,1,4,Positive,Medium,Medium
+920,45-54,Female,Old,Tank Tops,3,4,5,4,5,5,3,4,1,Positive,High,Medium
+921,35-44,Female,Old,Shorts,3,1,5,3,5,5,4,2,3,Positive,High,Medium
+922,35-44,Male,New,Hoodies,1,3,1,2,5,3,1,3,4,Negative,Medium,Medium
+923,45-54,Male,New,T-Shirts,1,2,3,3,3,4,4,4,5,Negative,Medium,High
+924,18-24,Female,Old,Joggers,2,2,5,1,2,3,2,1,5,Positive,Medium,Medium
+925,45-54,Male,New,Joggers,5,5,2,4,4,5,5,2,5,Positive,High,High
+926,25-34,Female,New,Joggers,3,3,1,3,5,5,4,3,2,Positive,High,Medium
+927,25-34,Female,New,Joggers,5,3,2,4,4,2,3,3,2,Positive,Medium,Medium
+928,25-34,Female,Old,T-Shirts,2,4,1,1,4,2,5,4,5,Positive,Medium,High
+929,55+,Male,New,Joggers,2,1,1,2,4,2,3,3,2,Negative,Medium,Medium
+930,45-54,Female,New,Shorts,5,5,1,4,4,2,2,3,5,Positive,Medium,Medium
+931,55+,Female,Old,Shorts,1,4,2,5,5,1,4,3,2,Positive,High,Medium
+932,18-24,Male,Old,Joggers,2,1,5,4,2,3,3,2,4,Positive,Medium,Medium
+933,55+,Male,New,T-Shirts,1,2,5,3,4,1,2,4,1,Positive,Medium,Medium
+934,35-44,Female,Old,Hoodies,3,2,3,4,1,1,5,2,2,Positive,Medium,Medium
+935,35-44,Male,Old,Tank Tops,1,3,2,4,5,2,2,4,1,Negative,High,Medium
+936,45-54,Female,New,Joggers,1,3,5,5,1,3,5,5,2,Positive,Medium,High
+937,45-54,Female,Old,Tank Tops,4,2,3,4,4,3,5,1,2,Positive,High,Medium
+938,45-54,Male,Old,Shorts,3,3,2,4,3,4,3,2,4,Positive,High,Medium
+939,45-54,Female,New,Hoodies,2,2,4,4,5,3,2,3,4,Positive,High,Medium
+940,25-34,Female,New,Shorts,1,2,1,3,2,4,4,5,2,Negative,Medium,High
+941,55+,Female,Old,Tank Tops,2,5,1,1,4,3,2,2,4,Positive,Medium,Medium
+942,18-24,Male,Old,Tank Tops,4,1,3,1,5,3,2,2,1,Positive,Medium,Low
+943,55+,Female,Old,Hoodies,4,4,5,1,4,1,4,4,5,Positive,Medium,High
+944,25-34,Female,Old,Shorts,4,1,4,4,4,4,3,5,2,Positive,High,Medium
+945,45-54,Male,Old,Joggers,4,2,1,4,2,1,2,3,2,Positive,Medium,Medium
+946,18-24,Male,Old,Shorts,4,5,4,3,4,1,5,2,2,Positive,Medium,Medium
+947,18-24,Male,New,Shorts,2,3,1,5,3,4,2,5,2,Negative,High,Medium
+948,25-34,Male,New,Hoodies,2,3,4,1,3,4,1,4,2,Positive,Medium,Medium
+949,25-34,Female,Old,Hoodies,4,3,1,5,2,1,3,2,2,Positive,Medium,Medium
+950,35-44,Female,New,Tank Tops,4,1,4,5,5,5,3,1,4,Positive,High,Medium
+951,25-34,Female,New,Tank Tops,4,2,2,5,4,4,3,1,2,Positive,High,Medium
+952,45-54,Male,Old,Joggers,1,4,4,5,1,5,1,2,5,Positive,High,Medium
+953,55+,Female,Old,T-Shirts,4,4,3,1,2,1,4,1,2,Positive,Low,Medium
+954,45-54,Female,New,Tank Tops,2,5,4,1,2,1,4,3,4,Positive,Low,High
+955,25-34,Male,New,Shorts,3,3,4,2,3,1,3,2,4,Positive,Medium,Medium
+956,45-54,Male,New,Hoodies,2,4,1,5,3,3,2,2,2,Positive,High,Medium
+957,45-54,Female,Old,Hoodies,3,1,2,1,3,1,1,1,3,Negative,Low,Low
+958,45-54,Female,New,Joggers,2,5,3,3,5,4,1,1,2,Positive,High,Low
+959,25-34,Female,New,Shorts,3,3,2,2,1,2,2,5,4,Positive,Low,High
+960,55+,Male,Old,Joggers,5,2,5,3,1,4,2,3,5,Positive,Medium,Medium
+961,55+,Male,Old,Tank Tops,1,5,5,3,2,3,3,3,2,Positive,Medium,Medium
+962,35-44,Male,Old,Shorts,5,5,3,2,3,3,5,2,4,Positive,Medium,High
+963,35-44,Female,Old,T-Shirts,2,1,2,1,3,1,3,2,5,Negative,Low,Medium
+964,35-44,Female,New,T-Shirts,4,1,1,1,1,3,5,3,3,Negative,Low,High
+965,18-24,Female,Old,Hoodies,5,2,4,2,1,4,1,5,1,Positive,Medium,Medium
+966,35-44,Female,New,Hoodies,1,4,2,2,5,1,2,5,3,Positive,Medium,Medium
+967,55+,Male,Old,Joggers,2,2,2,2,3,2,3,5,2,Negative,Medium,Medium
+968,25-34,Male,New,T-Shirts,4,2,4,5,3,4,2,1,4,Positive,High,Medium
+969,45-54,Male,Old,T-Shirts,3,5,1,2,5,3,1,4,5,Positive,Medium,Medium
+970,35-44,Male,Old,T-Shirts,3,1,1,1,1,4,3,3,4,Negative,Medium,Medium
+971,45-54,Male,Old,Tank Tops,1,5,1,4,1,3,3,5,4,Positive,Medium,High
+972,18-24,Female,Old,Shorts,3,5,5,3,5,4,5,5,2,Positive,High,High
+973,18-24,Female,Old,Tank Tops,2,1,2,1,3,2,5,3,4,Negative,Medium,High
+974,18-24,Female,New,Tank Tops,5,5,5,5,2,2,2,2,5,Positive,Medium,Medium
+975,45-54,Female,Old,Hoodies,3,1,5,2,4,4,2,5,5,Positive,Medium,High
+976,35-44,Male,Old,Tank Tops,4,4,4,2,1,5,1,2,3,Positive,Medium,Medium
+977,25-34,Female,Old,Hoodies,3,1,2,4,4,5,3,3,1,Negative,High,Medium
+978,18-24,Male,Old,Shorts,4,1,3,4,3,2,1,2,1,Positive,Medium,Low
+979,35-44,Female,New,Tank Tops,5,1,3,1,2,3,3,3,5,Positive,Medium,High
+980,18-24,Female,New,Hoodies,4,4,2,1,5,5,3,5,5,Positive,High,High
+981,35-44,Male,New,Joggers,4,3,2,4,2,4,5,3,1,Positive,Medium,Medium
+982,25-34,Male,Old,Shorts,2,5,3,5,5,3,3,4,3,Positive,High,Medium
+983,55+,Female,New,T-Shirts,1,3,2,2,5,4,4,4,1,Negative,High,Medium
+984,35-44,Male,Old,Hoodies,1,1,4,5,3,4,1,5,4,Negative,High,Medium
+985,25-34,Female,New,Hoodies,3,4,5,2,3,1,2,3,3,Positive,Medium,Medium
+986,18-24,Female,New,Joggers,2,2,5,4,4,5,3,3,1,Positive,High,Medium
+987,18-24,Female,Old,Joggers,3,4,1,2,2,5,4,3,1,Positive,Medium,Medium
+988,35-44,Male,New,Joggers,4,4,3,2,5,2,3,3,1,Positive,Medium,Medium
+989,45-54,Male,New,Tank Tops,1,4,5,5,2,5,3,5,5,Positive,High,High
+990,45-54,Male,Old,Joggers,3,5,2,4,1,2,1,3,5,Positive,Medium,Medium
+991,25-34,Female,New,T-Shirts,3,1,4,5,5,4,5,5,5,Positive,High,High
+992,35-44,Male,New,Tank Tops,2,5,5,5,1,2,5,1,1,Positive,Medium,Medium
+993,18-24,Male,Old,Shorts,2,3,3,2,1,2,4,4,5,Positive,Low,High
+994,35-44,Male,New,Hoodies,2,3,1,3,3,2,1,5,1,Negative,Medium,Medium
+995,25-34,Female,Old,Tank Tops,5,4,4,4,2,5,5,4,2,Positive,High,High
+996,35-44,Male,Old,Joggers,2,1,5,1,5,3,2,5,4,Positive,Medium,High
+997,25-34,Female,Old,Tank Tops,1,3,5,3,3,3,4,4,4,Positive,Medium,High
+998,35-44,Male,New,Joggers,3,1,4,5,1,1,4,5,2,Positive,Medium,High
+999,55+,Female,New,Joggers,3,5,4,5,2,2,2,2,1,Positive,Medium,Low
+1000,18-24,Female,Old,Shorts,2,4,1,5,4,5,3,2,2,Positive,High,Medium

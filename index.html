@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LULULEMON Activewear">
+  <title>LULULEMON AI | Activewear Trend Intelligence</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #000000;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #000000;
+      color: #ED1D24;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #fff;
+    }
+    nav {
+      text-align: center;
+      padding: 12px;
+      background: #5F5F61;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      display: flex; /* Added for button alignment */
+      justify-content: center; /* Added for button alignment */
+      flex-wrap: wrap; /* Allow wrapping for smaller screens */
+      gap: 15px; /* Spacing between nav items and buttons */
+    }
+    nav a, .nav-button { /* Added .nav-button */
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease, background-color 0.3s ease; /* Added background-color transition */
+      padding: 8px 15px; /* Added padding for buttons */
+      border-radius: 5px; /* Rounded corners for buttons */
+      cursor: pointer; /* Indicate clickable */
+      border: none; /* Remove default button border */
+      background-color: transparent; /* Default transparent background */
+      white-space: nowrap; /* Prevent text wrapping inside buttons/links */
+    }
+    nav a:hover, .nav-button:hover {
+      color: #ED1D24;
+      background-color: #7a7a7a; /* Darker background on hover */
+    }
+    .nav-button {
+      background-color: #ED1D24; /* Red background for download buttons */
+      color: #ffffff;
+    }
+    .nav-button:hover {
+      background-color: #c01a20; /* Slightly darker red on hover */
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: #212121;
+      text-align: center;
+    }
+    section p, section ul li {
+      line-height: 1.6;
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+    ul li::marker {
+      color: #ED1D24;
+    }
+    .team {
+      background: #f9f9f9;
+      padding: 40px 20px;
+      border-radius: 8px;
+    }
+    .team-member {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .team-member.supervisor-line {
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #e0e0e0;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #333;
+    }
+    .team-member img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px;
+      object-fit: cover;
+      background: #ddd;
+      border: 3px solid #ED1D24;
+    }
+    .team-member p {
+      margin: 0;
+    }
+    .team-member .download-links {
+      margin-left: auto;
+      display: flex;
+      flex-wrap: wrap; /* Allow download links to wrap */
+      gap: 10px;
+    }
+    .team-member .download-links a {
+      background-color: #5F5F61;
+      color: #ffffff;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background-color 0.3s ease;
+      white-space: nowrap; /* Prevent text wrapping within download buttons */
+    }
+    .team-member .download-links a:hover {
+      background-color: #333;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #5F5F61;
+      font-size: 0.9rem;
+      color: #ffffff;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .system-diagram img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="assets/logo.jpg" alt="Lululemon Logo">
+  <h1>LULULEMON Activewear</h1>
+  <!--<p>AI-Powered Fashion Trend Analysis for Sustainable Activewear Innovation</p>-->
+</header>
+
+<nav>
+  <a href="#about">ABOUT</a>
+  <a href="#features">FEATURES</a>
+  <a href="#methodology">METHODOLOGY</a>
+  <a href="#system-diagram">SYSTEM DIAGRAM</a>
+  <a href="#team">TEAM</a>
+  <a href="#contact">CONTACT</a>
+  <!--<button class="nav-button" onclick="alert('Download Document 1 (PDF)')">Download Doc 1</button>
+  <button class="nav-button" onclick="alert('Download Document 2 (PDF)')">Download Doc 2</button>
+  <button class="nav-button" onclick="alert('Download Document 3 (PDF)')">Download Doc 3</button>
+  <button class="nav-button" onclick="alert('Download Document 4 (PDF)')">Download Research Paper</button>-->
+  <a href="\docs\24-25J-173.pdf" download="24-25J-173.pdf" class="nav-button">Download our Research Paper</a>
+</nav>
+
+<!--<section id="about" class="fade-in">
+  <h2>What is this Product?</h2>
+  <p>LULULEMON Activewear is a commercial-ready platform that uses cutting-edge machine learning to detect, analyze, and forecast fashion trends in the activewear sector. The application provides real-time environmental feedback and psychological impact predictions, assisting designers and brands in creating innovative and sustainable fashion lines.</p>
+</section>-->
+
+<section id="about" class="fade-in">
+  <h2 style="font-family: 'Playfair Display', serif; color: #000000; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">What is this Product?</h2>
+  <p style="font-size: 1.05rem; line-height: 1.7; color: #0c0c0c; text-align: center;">
+    <strong style="color: #050505;">LULULEMON Activewear</strong> is a commercial-ready platform that uses cutting-edge machine learning to detect, analyze, and forecast fashion trends in the activewear sector. The application provides real-time environmental feedback and psychological impact predictions, assisting designers and brands in creating innovative and sustainable fashion lines.
+  </p>
+</section>
+
+<section id="company" class="fade-in">
+  <h2 style="font-family: 'Playfair Display', serif; color: #212121; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); text-align: center;">About MAS Holdings: A Global Leader in Apparel Tech</h2>
+  <p style="font-size: 1.05rem; line-height: 1.7; color: #333333; text-align: center; margin-bottom: 30px;">
+    Discover why MAS Holdings is a trusted partner and pioneer in the global apparel industry, constantly innovating for a sustainable future. Click on each section to learn more!
+  </p>
+
+  <style>
+    /* LOCAL STYLES FOR MAS HOLDINGS ACCORDION */
+    .mas-accordion-container {
+      max-width: 800px; /* Limit width for better readability */
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+
+    .mas-accordion-item {
+      background-color: #ffffff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      overflow: hidden; /* Ensures content slides cleanly */
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      opacity: 0; /* Initial state for fade-in */
+      transform: translateY(30px); /* Initial state for slide-up */
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Animation for fade-in and slide-up */
+    }
+
+    /* Staggered animation delay */
+    .mas-accordion-item:nth-child(1) { transition-delay: 0s; }
+    .mas-accordion-item:nth-child(2) { transition-delay: 0.1s; }
+    .mas-accordion-item:nth-child(3) { transition-delay: 0.2s; }
+    .mas-accordion-item:nth-child(4) { transition-delay: 0.3s; }
+
+    /* State when the card becomes visible (triggered by existing .fade-in JS) */
+    .mas-accordion-item.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .mas-accordion-header {
+      background-color: #f9f9f9;
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Inter', sans-serif;
+      font-size: 1.2rem;
+      color: #212121;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .mas-accordion-header:hover {
+      background-color: #f0f0f0;
+    }
+
+    .mas-accordion-header::after {
+      content: '+'; /* Plus icon for closed state */
+      font-size: 1.5rem;
+      color: #ED1D24;
+      transition: transform 0.3s ease;
+    }
+
+    .mas-accordion-item.active .mas-accordion-header::after {
+      content: '-'; /* Minus icon for open state */
+      transform: rotate(0deg); /* No rotation needed for - */
+    }
+
+    .mas-accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+      padding: 0 25px; /* Initial padding is 0 */
+    }
+
+    .mas-accordion-item.active .mas-accordion-content {
+      max-height: 200px; /* Adjust based on content height */
+      padding: 15px 25px 20px; /* Expanded padding */
+    }
+
+    .mas-accordion-content p {
+      font-size: 0.98rem;
+      line-height: 1.6;
+      color: #555555;
+      margin: 0;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .mas-accordion-header,
+      .mas-accordion-content {
+        padding: 15px 20px;
+      }
+      .mas-accordion-item.active .mas-accordion-content {
+        padding: 10px 20px 15px;
+      }
+    }
+  </style>
+
+  <div class="mas-accordion-container">
+    <div class="mas-accordion-item fade-in">
+      <div class="mas-accordion-header">Global Apparel Tech Leader</div>
+      <div class="mas-accordion-content">
+        <p>MAS Holdings is a renowned global apparel tech company, providing innovative end-to-end solutions for the world's leading apparel brands. Our expertise spans design, development, and manufacturing.</p>
+      </div>
+    </div>
+
+    <div class="mas-accordion-item fade-in">
+      <div class="mas-accordion-header">Pioneering Innovation</div>
+      <div class="mas-accordion-content">
+        <p>At MAS, innovation is at our core. We constantly anticipate future trends and leverage cutting-edge technology to push the boundaries of human potential in activewear and beyond, creating what's next.</p>
+      </div>
+    </div>
+
+    <div class="mas-accordion-item fade-in">
+      <div class="mas-accordion-header">Strategic Partnerships</div>
+      <div class="mas-accordion-content">
+        <p>Our success is built on strong collaborations. MAS partners with global brands and industry pioneers to achieve groundbreaking progress, transforming the apparel industry through shared vision and collective effort.</p>
+      </div>
+    </div>
+
+    <div class="mas-accordion-item fade-in">
+      <div class="mas-accordion-header">Unwavering Sustainability</div>
+      <div class="mas-accordion-content">
+        <p>We are deeply committed to ethical and sustainable manufacturing practices. MAS leads the industry in environmental stewardship and social responsibility, setting new benchmarks for a better, more sustainable future.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const accordionHeaders = document.querySelectorAll('.mas-accordion-header');
+
+      accordionHeaders.forEach(header => {
+        header.addEventListener('click', () => {
+          const accordionItem = header.closest('.mas-accordion-item');
+          accordionItem.classList.toggle('active'); // Toggle 'active' class on the item
+        });
+      });
+    });
+  </script>
+</section>
+
+<section id="research-problem" class="fade-in">
+  <h2 style="font-family: 'Playfair Display', serif; color: #212121; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); text-align: center;">Our Research Journey: Problem to Objectives</h2>
+  <p style="font-size: 1.05rem; line-height: 1.7; color: #333333; text-align: center; margin-bottom: 30px;">
+    Understand the core challenge we're addressing and the specific goals guiding our innovative AI solution for the fashion industry.
+  </p>
+
+  <style>
+    /* LOCAL STYLES FOR RESEARCH PROBLEM SECTION */
+    .research-flow-container {
+      display: flex;
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center items horizontally */
+      max-width: 900px; /* Limit width for readability */
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+
+    .research-step-card {
+      background-color: #ffffff;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      padding: 25px;
+      margin-bottom: 25px; /* Space between steps */
+      width: 100%; /* Full width within container */
+      box-sizing: border-box; /* Include padding in width */
+      text-align: center;
+      opacity: 0; /* Initial state for fade-in */
+      transform: translateY(30px); /* Initial state for slide-up */
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Animation */
+    }
+
+    /* Staggered animation delay for each major step block */
+    .research-problem.fade-in { transition-delay: 0s; }
+    .main-objective.fade-in { transition-delay: 0.2s; }
+    .sub-objectives.fade-in { transition-delay: 0.4s; }
+
+
+    /* State when the card becomes visible (triggered by existing .fade-in JS) */
+    .research-step-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .research-step-card h4 {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.4rem;
+      color: #ED1D24; /* Red for titles */
+      margin-top: 0;
+      margin-bottom: 15px;
+      position: relative; /* For potential icon/decoration */
+    }
+
+    .research-step-card p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #555555;
+      margin: 0;
+    }
+
+    .research-step-divider {
+      width: 50px;
+      height: 50px; /* Height for the arrow icon */
+      margin: -10px auto 15px auto; /* Adjust margin to overlap slightly */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem; /* Size of the arrow character */
+      color: #ccc; /* Light grey arrow */
+      opacity: 0; /* Initial state for fade-in */
+      transition: opacity 0.8s ease-out; /* Animation for arrow */
+    }
+
+    /* Arrow animation delay, slightly after previous card */
+    .research-step-divider.visible {
+        opacity: 1;
+        transition-delay: 0.1s;
+    }
+
+    .research-step-divider:last-of-type {
+        margin-bottom: 0; /* No margin after the last divider */
+    }
+
+    .sub-objectives ul {
+      list-style: none; /* Remove default bullet points */
+      padding: 0;
+      margin: 0;
+      text-align: left; /* Align list items to the left */
+    }
+
+    .sub-objectives ul li {
+      position: relative;
+      padding-left: 30px; /* Space for custom bullet */
+      margin-bottom: 10px;
+      font-size: 0.98rem;
+      line-height: 1.6;
+      color: #555555;
+    }
+
+    .sub-objectives ul li::before {
+      content: '\2022'; /* Unicode bullet point */
+      font-size: 1.5em;
+      color: #ED1D24; /* Red bullet point */
+      position: absolute;
+      left: 0;
+      top: 0px;
+      line-height: 1; /* Align bullet vertically */
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .research-step-card {
+        padding: 20px;
+      }
+      .research-step-card h4 {
+        font-size: 1.2rem;
+      }
+      .research-step-card p {
+        font-size: 0.9rem;
+      }
+      .sub-objectives ul li {
+        padding-left: 25px;
+      }
+    }
+  </style>
+
+  <div class="research-flow-container">
+    <div class="research-step-card research-problem fade-in">
+      <h4>The Research Problem</h4>
+      <p>How can machine learning be utilized to revolutionize the fashion industry by differentiating between old and new fashion styles, enhancing sustainability, and understanding consumer psychology?</p>
+    </div>
+
+    <div class="research-step-divider fade-in">&#x2193;</div> <div class="research-step-card main-objective fade-in">
+      <h4>Main Objective</h4>
+      <p>Leveraging Machine Learning for Classification and Differentiation of Old Fashion and New Fashion Clothing in the Textile Industry.</p>
+    </div>
+
+    <div class="research-step-divider fade-in">&#x2193;</div> <div class="research-step-card sub-objectives fade-in">
+      <h4>Specific Objectives</h4>
+      <ul>
+        <li>Old Style and New Style Similarity Measuring</li>
+        <li>Reducing Similarity with Suggestions</li>
+        <li>Psychological Impact of Clothing Styles</li>
+        <li>Sustainability and Environmental Impact</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section id="features" class="fade-in">
+  <h2 style="font-family: 'Playfair Display', serif; color: #000000; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); text-align: center;">Core Features</h2>
+  <ul style="list-style-type: none; padding: 0; margin: 0 auto; max-width: 60%;"> <li style="margin-bottom: 15px; font-size: 1.05rem; line-height: 1.6; color: #333333; position: relative; padding-left: 25px; text-align: left;">
+      <span style="position: absolute; left: 0; color: #ED1D24; font-size: 1.2em; top: 0;">&rarr;</span> <strong>AI Trend Recognition:</strong> Deep learning to classify fashion by era and pattern
+    </li>
+    <li style="margin-bottom: 15px; font-size: 1.05rem; line-height: 1.6; color: #333333; position: relative; padding-left: 25px; text-align: left;">
+      <span style="position: absolute; left: 0; color: #ED1D24; font-size: 1.2em; top: 0;">&rarr;</span> <strong>Sustainability Analyzer:</strong> Predicts and scores eco-impact of designs
+    </li>
+    <li style="margin-bottom: 15px; font-size: 1.05rem; line-height: 1.6; color: #333333; position: relative; padding-left: 25px; text-align: left;">
+      <span style="position: absolute; left: 0; color: #ED1D24; font-size: 1.2em; top: 0;">&rarr;</span> <strong>Style Recommender:</strong> Helps reduce old-new style similarities
+    </li>
+    <li style="margin-bottom: 15px; font-size: 1.05rem; line-height: 1.6; color: #333333; position: relative; padding-left: 25px; text-align: left;">
+      <span style="position: absolute; left: 0; color: #ED1D24; font-size: 1.2em; top: 0;">&rarr;</span> <strong>Consumer Psychology Engine:</strong> Forecasts impact of style on mood, confidence
+    </li>
+  </ul>
+</section>
+
+<section id="methodology" class="fade-in">
+  <h2 style="font-family: 'Playfair Display', serif; color: #212121; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); text-align: center;">Our Methodology in Action</h2>
+  <p style="font-size: 1.05rem; line-height: 1.7; color: #333333; text-align: center; margin-bottom: 30px;">
+    Our methodology focuses on leveraging advanced machine learning techniques to achieve accurate fashion trend analysis and prediction. The process involves several key stages, each designed to ensure comprehensive and insightful results:
+  </p>
+
+  <style>
+    /* LOCAL STYLES FOR ANIMATED METHODOLOGY STEPS */
+    .methodology-steps-container {
+      display: flex;
+      flex-wrap: wrap; /* Allows steps to wrap to the next line on smaller screens */
+      gap: 25px; /* Spacing between the step cards */
+      justify-content: center; /* Centers the cards horizontally */
+      padding: 20px 0;
+    }
+
+    .methodology-step-card {
+      background-color: #212121; /* Changed background to black */
+      border: 1px solid #333333; /* Adjusted border color for dark background */
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Slightly more prominent shadow for dark background */
+      padding: 25px;
+      flex: 1 1 calc(33% - 25px); /* Distributes cards into approximately 3 columns */
+      max-width: 350px; /* Maximum width for each card */
+      text-align: left;
+      opacity: 0; /* Initial state: hidden */
+      transform: translateY(30px); /* Initial state: slightly below its final position */
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Animation duration and easing */
+      min-height: 180px; /* Ensures consistent card height, adjust as needed */
+      display: flex;
+      flex-direction: column; /* Stacks title and paragraph vertically */
+      justify-content: flex-start; /* Aligns content to the top */
+    }
+
+    /* State when the card becomes visible (triggered by existing JS) */
+    .methodology-step-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Staggered animation delay for each subsequent card */
+    .methodology-step-card:nth-child(1) { transition-delay: 0s; }
+    .methodology-step-card:nth-child(2) { transition-delay: 0.1s; }
+    .methodology-step-card:nth-child(3) { transition-delay: 0.2s; }
+    .methodology-step-card:nth-child(4) { transition-delay: 0.3s; }
+    .methodology-step-card:nth-child(5) { transition-delay: 0.4s; }
+    .methodology-step-card:nth-child(6) { transition-delay: 0.5s; }
+    .methodology-step-card:nth-child(7) { transition-delay: 0.6s; }
+
+    .methodology-step-card h3 {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.3rem;
+      color: #ffffff; /* Red color for titles (contrasts well with black) */
+      margin-top: 0;
+      margin-bottom: 10px;
+      display: flex; /* Use flex to align number with title */
+      align-items: center;
+    }
+
+    /* Styles for the dynamically added number prefix */
+    .methodology-step-card h3 .step-number-prefix {
+        display: inline-block;
+        margin-right: 10px; /* Space after number */
+        font-family: 'Playfair Display', serif; /* Consistent with section title */
+        font-size: 1.2em; /* Slightly larger than surrounding text */
+        color: #f0f0f0; /* Changed to light grey for readability on black */
+        font-weight: 500;
+    }
+
+    .methodology-step-card p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #f0f0f0; /* Changed to light grey for readability on black */
+      margin-bottom: 0;
+    }
+
+    /* Responsive adjustments for card layout */
+    @media (max-width: 900px) {
+      .methodology-step-card {
+        flex: 1 1 calc(48% - 25px); /* Two cards per row on medium screens */
+      }
+    }
+
+    @media (max-width: 600px) {
+      .methodology-step-card {
+        flex: 1 1 100%; /* One card per row on small screens */
+        max-width: 100%;
+      }
+    }
+  </style>
+
+  <div class="methodology-steps-container">
+    <div class="methodology-step-card fade-in">
+      <h3>Data Collection and Preprocessing</h3>
+      <p>Gathering a diverse dataset of activewear fashion images and associated metadata, including cleaning, normalizing, and augmenting data to ensure quality and variety for model training. The dataset is similar to MAS Holdings datasets.</p>
+    </div>
+    <div class="methodology-step-card fade-in">
+      <h3>Feature Extraction</h3>
+      <p>Utilizing deep learning models, such as Convolutional Neural Networks (CNNs), to extract relevant features from fashion images. These features capture stylistic elements, patterns, and silhouettes.</p>
+    </div>
+    <div class="methodology-step-card fade-in">
+      <h3>Trend Classification and Prediction</h3>
+      <p>Implementing classification algorithms to categorize fashion items by era and pattern, and employing time-series analysis for forecasting future trends.</p>
+    </div>
+    <div class="methodology-step-card fade-in">
+      <h3>Similarity Measurement</h3>
+      <p>Developing algorithms to quantify similarities between old and new styles, enabling identification of unique trends and suggestions to reduce similarities.</p>
+    </div>
+    <div class="methodology-step-card fade-in">
+      <h3>Sustainability Modeling</h3>
+      <p>Integrating modules to predict and score the environmental impact of designs based on materials, production processes, and lifecycle analysis.</p>
+    </div>
+    <div class="methodology-step-card fade-in">
+      <h3>Psychological Impact Analysis</h3>
+      <p>Building models to forecast the psychological impact of clothing styles on mood and confidence, providing insights for designers.</p>
+    </div>
+    <div class="methodology-step-card fade-in">
+      <h3>Model Training and Evaluation</h3>
+      <p>Iteratively training and evaluating machine learning models using various metrics to ensure high accuracy, robustness, and generalization capabilities.</p>
+    </div>
+  </div>
+
+  <p style="font-size: 1.05rem; line-height: 1.7; color: #333333; text-align: center; margin-top: 30px;">
+    This comprehensive approach ensures that LULULEMON Activewear provides a robust and intelligent platform for sustainable activewear innovation. The outcome supports innovative, eco-friendly fashion designs.
+  </p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const methodologyCards = document.querySelectorAll('.methodology-step-card');
+      methodologyCards.forEach((card, index) => {
+        const h3 = card.querySelector('h3');
+        if (h3) {
+          const prefixSpan = document.createElement('span');
+          prefixSpan.classList.add('step-number-prefix');
+          prefixSpan.textContent = `${index + 1}.`;
+
+          h3.prepend(prefixSpan);
+        }
+      });
+    });
+  </script>
+</section>
+<!-- System diagram kooooooooooooooooooooooooooooooooooooo-->
+<section id="system-diagram" class="fade-in system-diagram">
+    <h2>System Diagram</h2>
+    <p style="text-align: center;">Below is a high-level overview of the LULULEMON AI system architecture, illustrating the flow of data and interaction between different components.</p>    <img src="assets/systemdiagram.jpg" alt="System Diagram of LULULEMON AI">
+    <p style="text-align: center; font-style: italic; color: #555;">(System Diagram our our product)</p>
+</section>
+
+<section id="tech-stack" class="fade-in">
+  <h2 style="font-family: 'Playfair Display', serif; color: #212121; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); text-align: center;">Technologies That Power Our Solution</h2>
+  <p style="font-size: 1.05rem; line-height: 1.7; color: #333333; text-align: center; margin-bottom: 30px;">
+    We leverage a powerful and diverse set of tools and platforms to build, deploy, and manage our AI system. Here's a glimpse into our technological backbone:
+  </p>
+
+  <style>
+    /* LOCAL STYLES FOR TECH STACK SECTION */
+    .tech-stack-categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px; /* Space between category cards */
+      padding: 20px 0;
+    }
+
+    .tech-category-card {
+      background-color: #f8f8f8; /* Light background for category cards */
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+      padding: 30px;
+      flex: 1 1 calc(45% - 30px); /* Two cards per row on larger screens */
+      max-width: 450px;
+      text-align: center;
+      opacity: 0; /* Initial state for fade-in */
+      transform: translateY(30px); /* Initial state for slide-up */
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Animation */
+    }
+
+    /* Staggered animation delay for category cards */
+    .tech-category-card:nth-child(1) { transition-delay: 0s; }
+    .tech-category-card:nth-child(2) { transition-delay: 0.1s; }
+    .tech-category-card:nth-child(3) { transition-delay: 0.2s; }
+    .tech-category-card:nth-child(4) { transition-delay: 0.3s; }
+
+    /* State when the card becomes visible (triggered by existing .fade-in JS) */
+    .tech-category-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .tech-category-card h3 {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.5rem;
+      color: #ED1D24; /* Red for category titles */
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    .tech-category-card .category-description {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #555555;
+      margin-bottom: 25px;
+    }
+
+    .tech-icons-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px; /* Space between individual tech icons */
+    }
+
+    .tech-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      border-radius: 8px;
+      transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Hover animation */
+      cursor: default; /* Indicate not directly clickable for now */
+    }
+
+    .tech-item:hover {
+      transform: translateY(-5px); /* Lift effect on hover */
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* Stronger shadow on hover */
+    }
+
+    .tech-item img {
+      width: 60px; /* Slightly larger icons */
+      height: 60px;
+      object-fit: contain; /* Ensure images fit well */
+      margin-bottom: 8px;
+    }
+
+    .tech-item p {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #212121;
+      margin: 0;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 900px) {
+      .tech-category-card {
+        flex: 1 1 100%; /* One card per row on medium screens */
+        max-width: 600px; /* Max width for single column */
+      }
+    }
+
+    @media (max-width: 600px) {
+      .tech-category-card {
+        padding: 20px;
+      }
+      .tech-category-card h3 {
+        font-size: 1.3rem;
+      }
+      .tech-category-card .category-description {
+        font-size: 0.88rem;
+      }
+      .tech-item img {
+        width: 50px;
+        height: 50px;
+      }
+      .tech-item p {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+
+  <div class="tech-stack-categories">
+    <div class="tech-category-card fade-in">
+      <h3>Model Development & AI Core</h3>
+      <p class="category-description">
+        These are the foundational tools we use to build, train, and manage our powerful AI models.
+      </p>
+      <div class="tech-icons-container">
+        <div class="tech-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" />
+          <p>Python</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Google Colab Logo" />
+          <p>Google Colab</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tech-category-card fade-in">
+      <h3>Web Application Frontend</h3>
+      <p class="category-description">
+        These technologies bring our user interface to life, creating the interactive website you see.
+      </p>
+      <div class="tech-icons-container">
+        <div class="tech-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React.js Logo" />
+          <p>React.js</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js Logo" />
+          <p>Node.js</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tech-category-card fade-in">
+      <h3>Local Hosting & Testing</h3>
+      <p class="category-description">
+        This tool helps us run and test our website on our own computers before it's deployed live.
+      </p>
+      <div class="tech-icons-container">
+        <div class="tech-item">
+          <img src="assets/xampp.png" alt="XAMPP Logo" />
+          <p>XAMPP</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tech-category-card fade-in">
+      <h3>Version Control</h3>
+      <p class="category-description">
+        This platform allows our team to collaborate on code, track changes, and manage development effectively.
+      </p>
+      <div class="tech-icons-container">
+        <div class="tech-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" alt="GitHub Logo" />
+          <p>GitHub</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="fade-in team">
+  <h2 style="font-family: 'Playfair Display', serif; color: #000000; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); text-align: center;">Meet Our Team</h2>
+  <p style="font-size: 1.05rem; line-height: 1.7; color: #333333; text-align: center; margin-bottom: 30px;">
+    Our dedicated team of innovators and researchers is committed to pushing the boundaries of AI in fashion. Each member brings unique expertise to develop a robust and insightful platform for LULULEMON Activewear.
+  </p>
+  <div class="team-member supervisor-line">
+    <p style="font-size: 1.1em;"> <strong>Supervisors:</strong> Mr. Nelum Amarasena (FOC-SLIIT), Ms. Sandeeepa Gamage (FOC-SLIIT), Dr. Lakmal Ponnapperuma (FOHS-SLIIT), Mr. Dhanusha Tharindu (MAS Holdings Pvt Ltd)
+    </p>
+  </div>
+  <div class="team-member">
+    <img src="assets/photo4.jpg" alt="Group Leader"><p><strong>Group Leader:</strong> Pamuditha Gamaarachchi (Associate Systems Engineer)</p>
+    <div class="download-links">
+        <a href="downloads/modified_data1.xlsx" download>Dataset</a>
+        <a href="downloads/pamuditha_report.docx" download>Report</a>
+    </div>
+  </div>
+  <div class="team-member">
+    <img src="assets/hirushi.jpg" alt="Member"><p><strong>Member:</strong>Hirushi Weerasinghe (Associate QA Engineer)</p>
+    <div class="download-links">
+        <a href="downloads/Adjustable_Strap_Sports_Bra_Report.xlsx" download>Dataset</a>
+        <a href="downloads/Weerasinghe H_IT21229848.docx" download>Report</a>
+    </div>
+  </div>
+  <div class="team-member">
+    <img src="assets/hansika.jpg" alt="Member"><p><strong>Member:</strong>Hansika Dodampegama (Associate Developer)</p>
+    <div class="download-links">
+        <a href="downloads/Psychological impact of fashion trends.csv" download>Dataset</a>
+        <a href="downloads/Dodampegama N.H. - IT21293412.pdf" download>Report</a>
+    </div>
+  </div>
+  <div class="team-member">
+    <img src="assets/photo7.jpg" alt="Member"><p><strong>Member:</strong>Nawodya Ranasinghe (Associate Project Manager)</p>
+    <div class="download-links">
+        <a href="downloads/Gym_Gloves_Cleaned.xlsx" download>Dataset</a>
+        <a href="downloads/IT21293726_Ranasinghe N N.docx" download>Report</a>
+    </div>
+  </div>
+</section>
+
+<section id="system-diagram" class="fade-in system-diagram" style="padding-top: 30px; padding-bottom: 30px;"> <h2 style="font-family: 'Playfair Display', serif; color: #212121; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); text-align: center;">System Visuals</h2>
+
+  <style>
+    /* LOCAL STYLES FOR IMAGE SLIDER */
+    .image-slider-wrapper {
+      width: 100%;
+      overflow: hidden;
+      margin: 15px auto; /* Slightly reduced margin */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      background-color: #f0f0f0;
+      padding: 5px 0; /* Reduced internal padding */
+      height: 300px; /* Explicitly set a reduced height for the slider area */
+      display: flex; /* Ensure flex behavior */
+      align-items: center; /* Vertically center images within the wrapper */
+    }
+
+    .image-slider-track {
+      display: flex;
+      width: 200%;
+      animation: scroll-images 30s linear infinite;
+    }
+
+    .image-slider-track img {
+      width: 50%;
+      height: 100%; /* Make image fill the height of the wrapper */
+      object-fit: contain;
+      flex-shrink: 0;
+      border-radius: 5px;
+    }
+
+    @keyframes scroll-images {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .system-diagram .image-slider-track img {
+        border: none;
+        box-shadow: none;
+    }
+  </style>
+
+  <div class="image-slider-wrapper">
+    <div class="image-slider-track">
+      <img src="assets/fieldvisit.jpg" alt="Our Field visit to MAS Holdings">
+      <img src="assets/dashboard.jpg" alt="Screenshot of our Dashboard">
+      <img src="assets/fieldvisit.jpg" alt="Our Field visit to MAS Holdings">
+      <img src="assets/dashboard.jpg" alt="Screenshot of our Dashboard">
+    </div>
+  </div>
+
+  <p style="text-align: center; font-style: italic; color: #555;">(Field visit to MAS Holdings and Dashboard Overview)</p>
+</section>
+
+<section id="contact" class="fade-in">
+  <h2 style="font-family: 'Playfair Display', serif; color: #212121; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); text-align: center; margin-bottom: 20px;">Contact Us</h2>
+  <p style="font-family: 'Inter', sans-serif; font-size: 1.05rem; line-height: 1.7; color: #333333; text-align: center; margin-bottom: 40px;">
+    We'd love to hear from you! Reach out through any of the channels below or visit our office.
+  </p>
+
+  <style>
+    /* LOCAL STYLES FOR CONTACT SECTION - Minimal Styles, Focus on Font & Readability */
+    #contact {
+      padding: 60px 20px;
+      max-width: 1100px; /* Aligns with your main section's max-width */
+      margin: 0 auto; /* Centers the section */
+      text-align: center; /* Centers text content */
+      opacity: 0; /* Initial state for fade-in animation */
+      transform: translateY(20px); /* Initial state for slide-up animation */
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth animation */
+    }
+
+    /* Apply visible state for animation (relies on your existing .fade-in JS) */
+    #contact.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    #contact p {
+      font-family: 'Inter', sans-serif; /* Apply Inter font */
+      font-size: 1.1rem; /* Standard readable font size */
+      color: #333333; /* Dark text for readability */
+      margin-bottom: 15px; /* Space between paragraphs */
+      line-height: 1.6;
+    }
+
+    #contact a {
+      font-family: 'Inter', sans-serif; /* Apply Inter font to links */
+      color: #ED1D24; /* Red color for links */
+      text-decoration: none; /* No underline by default */
+      font-weight: 600; /* Make links slightly bold */
+      transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth hover effect */
+    }
+
+    #contact a:hover {
+      color: #c71a1f; /* Darker red on hover */
+      text-decoration: underline; /* Underline on hover for interactivity */
+    }
+
+    #contact iframe {
+      width: 100%; /* Map takes full width of its container */
+      height: 400px; /* Fixed height for the map */
+      border: 1px solid #ccc; /* Simple light grey border around the map */
+      border-radius: 8px; /* Slightly rounded corners for the map */
+      margin-top: 30px; /* Space above the map */
+      display: block; /* Ensures it takes full width and margin works correctly */
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 600px) {
+      #contact {
+        padding: 40px 15px; /* Reduce padding on smaller screens */
+      }
+      #contact p {
+        font-size: 1rem; /* Slightly smaller font size for paragraphs */
+      }
+      #contact iframe {
+        height: 300px; /* Smaller map height on small screens */
+      }
+    }
+  </style>
+
+  <p>Email us at: <a href="mailto:info@lululemonai.tech">info@lululemonai.tech</a></p>
+  <p>Call us: <a href="tel:0112647890">011-2647890</a></p>
+  <p>Visit us: World Trade Center, Colombo 01</p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.672465492161!2d79.84594637499694!3d6.92484439308191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25916325997f3%3A0x6b4c1a5b6f3b0e77!2sWorld%20Trade%20Center!5e0!3m2!1sen!2slk!4v1716616087796!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+<footer>
+  © 2025 LULULEMON AI. All rights reserved. [cite: 29, 30]
+</footer>
+
+<script>
+  const faders = document.querySelectorAll('.fade-in');
+  const appearOptions = {
+    threshold: 0.2,
+    rootMargin: '0px 0px -50px 0px'
+  };
+  const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('visible');
+      appearOnScroll.unobserve(entry.target);
+    });
+  }, appearOptions);
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+  });
+</script>
+
+</body>
+</html>
